@@ -1,7 +1,7 @@
 {
   "version": 1,
   "name": "LTXX",
-  "id": "e23ec5a9-1157-4eb7-bbec-4571fe5afd50",
+  "id": "bc343b3b-bbb7-4f40-b6f7-7e33c6c417fe",
   "updateUrl": "https://raw.githubusercontent.com/TRvACC/vATIS-Profile.json/refs/heads/main/vATIS%20Profile%20-%20LTXX.json",
   "updateSerial": 2024122401,
   "stations": [
@@ -4051,7 +4051,7 @@
           "id": "231c698e-3104-4c89-8d14-65b7da09f916",
           "name": "DEP 03L/ ARR 03R",
           "airportConditions": "",
-          "notams": "",
+          "notams": "\r\n",
           "template": "@LTAC ATIS INFORMATION [ATIS_CODE] [OBS_TIME] RWY ^03L @EXP ILS @V APCH RWY ^03R [TL] [WIND] [VIS] [CLOUDS] [PRESENT_WX] [TEMP] [DEW] [PRESSURE] [TREND] [RVR] [RECENT_WX] [NOTAMS] DEP TFC INTXN @E IS @MANDATORY REPORT IF UNABLE TO EXECUTE INTXN DEPS @RECIEVE DEP CLNC VIA DATALINK ON ACARS [CLOSING]",
           "externalGenerator": {
             "enabled": false
