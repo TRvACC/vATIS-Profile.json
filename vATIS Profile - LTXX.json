@@ -2,6 +2,8 @@
   "version": 1,
   "name": "LTXX",
   "id": "e23ec5a9-1157-4eb7-bbec-4571fe5afd50",
+  "updateUrl": "https://raw.githubusercontent.com/TRvACC/vATIS-Profile.json/refs/heads/main/vATIS%20Profile%20-%20LTXX.json",
+  "updateSerial": 2024122401,
   "stations": [
     {
       "id": "0246f9d7-62d1-4c22-9ab4-664635164b4d",
