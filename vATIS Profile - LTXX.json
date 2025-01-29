@@ -1,9 +1,9 @@
 {
   "version": 1,
   "name": "LTXX",
-  "id": "bc343b3b-bbb7-4f40-b6f7-7e33c6c417fe",
+  "id": "5b83e349-2296-4442-8c2e-e0c018d55fd8",
   "updateUrl": "https://raw.githubusercontent.com/TRvACC/vATIS-Profile.json/refs/heads/main/vATIS%20Profile%20-%20LTXX.json",
-  "updateSerial": 2024122402,
+  "updateSerial": 2025012901,
   "stations": [
     {
       "id": "0246f9d7-62d1-4c22-9ab4-664635164b4d",
@@ -219,6 +219,12 @@
             "voice": ",{weather},"
           }
         },
+        "recentWeather": {
+          "template": {
+            "text": "RECENT WEATHER {weather}",
+            "voice": "RECENT WEATHER {weather}"
+          }
+        },
         "clouds": {
           "identifyCeilingLayer": false,
           "convertToMetric": false,
@@ -229,23 +235,23 @@
           },
           "types": {
             "FEW": {
-              "text": "FEW{altitude} FT ",
+              "text": "FEW{altitude:5} FT ",
               "voice": ",few clouds, at {altitude},"
             },
             "SCT": {
-              "text": "SCT{altitude}  FT  {convective}",
+              "text": "SCT{altitude:5}  FT  {convective}",
               "voice": ",{altitude} scattered, {convective},"
             },
             "BKN": {
-              "text": "BKN{altitude}  FT  {convective}",
+              "text": "BKN{altitude:5}  FT  {convective}",
               "voice": ",{altitude} broken, {convective},"
             },
             "OVC": {
-              "text": "OVC{altitude}  FT  {convective}",
+              "text": "OVC{altitude:5}  FT  {convective}",
               "voice": ",{altitude} overcast, {convective},"
             },
             "VV": {
-              "text": "VV{altitude}  FT",
+              "text": "VV{altitude:5}  FT",
               "voice": ",indefinite ceiling, {altitude},"
             },
             "NSC": {
@@ -325,6 +331,12 @@
             "voice": ",TRANSITION LEVEL, {trl}."
           }
         },
+        "notams": {
+          "template": {
+            "text": "NOTAMS... {notams}",
+            "voice": "NOTICES TO AIR MISSIONS: {notams}"
+          }
+        },
         "closingStatement": {
           "autoIncludeClosingStatement": false,
           "template": {
@@ -337,7 +349,6 @@
       "airportConditionsBeforeFreeText": false,
       "frequency": 118275000,
       "idsEndpoint": "",
-      "useNotamPrefix": false,
       "useDecimalTerminology": true,
       "atisVoice": {
         "useTextToSpeech": true,
@@ -448,7 +459,7 @@
         {
           "text": "AFTER VACATING CTC 121.900",
           "ordinal": 1,
-          "enabled": true
+          "enabled": false
         }
       ],
       "notamDefinitions": [
@@ -698,6 +709,12 @@
             "voice": ",{weather},"
           }
         },
+        "recentWeather": {
+          "template": {
+            "text": "RECENT WEATHER {weather}",
+            "voice": "RECENT WEATHER {weather}"
+          }
+        },
         "clouds": {
           "identifyCeilingLayer": false,
           "convertToMetric": false,
@@ -708,23 +725,23 @@
           },
           "types": {
             "FEW": {
-              "text": "FEW{altitude} FT ",
+              "text": "FEW{altitude:5} FT ",
               "voice": ",few clouds, at {altitude},"
             },
             "SCT": {
-              "text": "SCT{altitude}  FT  {convective}",
+              "text": "SCT{altitude:5}  FT  {convective}",
               "voice": ",{altitude} scattered, {convective},"
             },
             "BKN": {
-              "text": "BKN{altitude}  FT  {convective}",
+              "text": "BKN{altitude:5}  FT  {convective}",
               "voice": ",{altitude} broken, {convective},"
             },
             "OVC": {
-              "text": "OVC{altitude}  FT  {convective}",
+              "text": "OVC{altitude:5}  FT  {convective}",
               "voice": ",{altitude} overcast, {convective},"
             },
             "VV": {
-              "text": "VV{altitude}  FT",
+              "text": "VV{altitude:5}  FT",
               "voice": ",indefinite ceiling, {altitude},"
             },
             "NSC": {
@@ -804,6 +821,12 @@
             "voice": ",TRANSITION LEVEL, {trl}."
           }
         },
+        "notams": {
+          "template": {
+            "text": "NOTAMS... {notams}",
+            "voice": "NOTICES TO AIR MISSIONS: {notams}"
+          }
+        },
         "closingStatement": {
           "autoIncludeClosingStatement": false,
           "template": {
@@ -816,7 +839,6 @@
       "airportConditionsBeforeFreeText": false,
       "frequency": 136125000,
       "idsEndpoint": "",
-      "useNotamPrefix": false,
       "useDecimalTerminology": true,
       "atisVoice": {
         "useTextToSpeech": true,
@@ -943,7 +965,7 @@
         {
           "text": "DEP FREQ 119.650",
           "ordinal": 3,
-          "enabled": true
+          "enabled": false
         },
         {
           "text": "DEP FREQ 120.275",
@@ -1208,6 +1230,12 @@
             "voice": ",{weather},"
           }
         },
+        "recentWeather": {
+          "template": {
+            "text": "RECENT WEATHER {weather}",
+            "voice": "RECENT WEATHER {weather}"
+          }
+        },
         "clouds": {
           "identifyCeilingLayer": false,
           "convertToMetric": false,
@@ -1218,23 +1246,23 @@
           },
           "types": {
             "FEW": {
-              "text": "FEW{altitude} FT ",
+              "text": "FEW{altitude:5} FT ",
               "voice": ",few clouds, at {altitude},"
             },
             "SCT": {
-              "text": "SCT{altitude}  FT  {convective}",
+              "text": "SCT{altitude:5}  FT  {convective}",
               "voice": ",{altitude} scattered, {convective},"
             },
             "BKN": {
-              "text": "BKN{altitude}  FT  {convective}",
+              "text": "BKN{altitude:5}  FT  {convective}",
               "voice": ",{altitude} broken, {convective},"
             },
             "OVC": {
-              "text": "OVC{altitude}  FT  {convective}",
+              "text": "OVC{altitude:5}  FT  {convective}",
               "voice": ",{altitude} overcast, {convective},"
             },
             "VV": {
-              "text": "VV{altitude}  FT",
+              "text": "VV{altitude:5}  FT",
               "voice": ",indefinite ceiling, {altitude},"
             },
             "NSC": {
@@ -1314,6 +1342,12 @@
             "voice": ",TRANSITION LEVEL, {trl}."
           }
         },
+        "notams": {
+          "template": {
+            "text": "NOTAMS... {notams}",
+            "voice": "NOTICES TO AIR MISSIONS: {notams}"
+          }
+        },
         "closingStatement": {
           "autoIncludeClosingStatement": false,
           "template": {
@@ -1326,7 +1360,6 @@
       "airportConditionsBeforeFreeText": true,
       "frequency": 128200000,
       "idsEndpoint": "",
-      "useNotamPrefix": false,
       "useDecimalTerminology": true,
       "atisVoice": {
         "useTextToSpeech": true,
@@ -1593,6 +1626,12 @@
             "voice": ",{weather},"
           }
         },
+        "recentWeather": {
+          "template": {
+            "text": "RECENT WEATHER {weather}",
+            "voice": "RECENT WEATHER {weather}"
+          }
+        },
         "clouds": {
           "identifyCeilingLayer": false,
           "convertToMetric": false,
@@ -1603,23 +1642,23 @@
           },
           "types": {
             "FEW": {
-              "text": "FEW{altitude} FT ",
+              "text": "FEW{altitude:5} FT ",
               "voice": ",few clouds, at {altitude},"
             },
             "SCT": {
-              "text": "SCT{altitude}  FT  {convective}",
+              "text": "SCT{altitude:5}  FT  {convective}",
               "voice": ",{altitude} scattered, {convective},"
             },
             "BKN": {
-              "text": "BKN{altitude}  FT  {convective}",
+              "text": "BKN{altitude:5}  FT  {convective}",
               "voice": ",{altitude} broken, {convective},"
             },
             "OVC": {
-              "text": "OVC{altitude}  FT  {convective}",
+              "text": "OVC{altitude:5}  FT  {convective}",
               "voice": ",{altitude} overcast, {convective},"
             },
             "VV": {
-              "text": "VV{altitude}  FT",
+              "text": "VV{altitude:5}  FT",
               "voice": ",indefinite ceiling, {altitude},"
             },
             "NSC": {
@@ -1699,6 +1738,12 @@
             "voice": ",TRANSITION LEVEL, {trl}."
           }
         },
+        "notams": {
+          "template": {
+            "text": "NOTAMS... {notams}",
+            "voice": "NOTICES TO AIR MISSIONS: {notams}"
+          }
+        },
         "closingStatement": {
           "autoIncludeClosingStatement": false,
           "template": {
@@ -1711,7 +1756,6 @@
       "airportConditionsBeforeFreeText": true,
       "frequency": 127275000,
       "idsEndpoint": "",
-      "useNotamPrefix": false,
       "useDecimalTerminology": true,
       "atisVoice": {
         "useTextToSpeech": true,
@@ -1757,7 +1801,13 @@
           "voice": ". EXPECT,"
         }
       ],
-      "airportConditionDefinitions": [],
+      "airportConditionDefinitions": [
+        {
+          "text": "AFTER VACATING CTC 121.900",
+          "ordinal": 1,
+          "enabled": false
+        }
+      ],
       "notamDefinitions": []
     },
     {
@@ -1974,6 +2024,12 @@
             "voice": ",{weather},"
           }
         },
+        "recentWeather": {
+          "template": {
+            "text": "RECENT WEATHER {weather}",
+            "voice": "RECENT WEATHER {weather}"
+          }
+        },
         "clouds": {
           "identifyCeilingLayer": false,
           "convertToMetric": false,
@@ -1984,23 +2040,23 @@
           },
           "types": {
             "FEW": {
-              "text": "FEW{altitude} FT ",
+              "text": "FEW{altitude:5} FT ",
               "voice": ",few clouds, at {altitude},"
             },
             "SCT": {
-              "text": "SCT{altitude}  FT  {convective}",
+              "text": "SCT{altitude:5}  FT  {convective}",
               "voice": ",{altitude} scattered, {convective},"
             },
             "BKN": {
-              "text": "BKN{altitude}  FT  {convective}",
+              "text": "BKN{altitude:5}  FT  {convective}",
               "voice": ",{altitude} broken, {convective},"
             },
             "OVC": {
-              "text": "OVC{altitude}  FT  {convective}",
+              "text": "OVC{altitude:5}  FT  {convective}",
               "voice": ",{altitude} overcast, {convective},"
             },
             "VV": {
-              "text": "VV{altitude}  FT",
+              "text": "VV{altitude:5}  FT",
               "voice": ",indefinite ceiling, {altitude},"
             },
             "NSC": {
@@ -2085,6 +2141,12 @@
             "voice": ",TRANSITION LEVEL, {trl}."
           }
         },
+        "notams": {
+          "template": {
+            "text": "NOTAMS... {notams}",
+            "voice": "NOTICES TO AIR MISSIONS: {notams}"
+          }
+        },
         "closingStatement": {
           "autoIncludeClosingStatement": false,
           "template": {
@@ -2097,7 +2159,6 @@
       "airportConditionsBeforeFreeText": false,
       "frequency": 129375000,
       "idsEndpoint": "",
-      "useNotamPrefix": false,
       "useDecimalTerminology": true,
       "atisVoice": {
         "useTextToSpeech": true,
@@ -2375,6 +2436,12 @@
             "voice": ",{weather},"
           }
         },
+        "recentWeather": {
+          "template": {
+            "text": "RECENT WEATHER {weather}",
+            "voice": "RECENT WEATHER {weather}"
+          }
+        },
         "clouds": {
           "identifyCeilingLayer": false,
           "convertToMetric": false,
@@ -2385,23 +2452,23 @@
           },
           "types": {
             "FEW": {
-              "text": "FEW{altitude} FT ",
+              "text": "FEW{altitude:5} FT ",
               "voice": ",few clouds, at {altitude},"
             },
             "SCT": {
-              "text": "SCT{altitude}  FT  {convective}",
+              "text": "SCT{altitude:5}  FT  {convective}",
               "voice": ",{altitude} scattered, {convective},"
             },
             "BKN": {
-              "text": "BKN{altitude}  FT  {convective}",
+              "text": "BKN{altitude:5}  FT  {convective}",
               "voice": ",{altitude} broken, {convective},"
             },
             "OVC": {
-              "text": "OVC{altitude}  FT  {convective}",
+              "text": "OVC{altitude:5}  FT  {convective}",
               "voice": ",{altitude} overcast, {convective},"
             },
             "VV": {
-              "text": "VV{altitude}  FT",
+              "text": "VV{altitude:5}  FT",
               "voice": ",indefinite ceiling, {altitude},"
             },
             "NSC": {
@@ -2481,6 +2548,12 @@
             "voice": ",TRANSITION LEVEL, {trl}."
           }
         },
+        "notams": {
+          "template": {
+            "text": "NOTAMS... {notams}",
+            "voice": "NOTICES TO AIR MISSIONS: {notams}"
+          }
+        },
         "closingStatement": {
           "autoIncludeClosingStatement": false,
           "template": {
@@ -2493,7 +2566,6 @@
       "airportConditionsBeforeFreeText": true,
       "frequency": 119925000,
       "idsEndpoint": "",
-      "useNotamPrefix": false,
       "useDecimalTerminology": true,
       "atisVoice": {
         "useTextToSpeech": true,
@@ -2763,6 +2835,12 @@
             "voice": ",{weather},"
           }
         },
+        "recentWeather": {
+          "template": {
+            "text": "RECENT WEATHER {weather}",
+            "voice": "RECENT WEATHER {weather}"
+          }
+        },
         "clouds": {
           "identifyCeilingLayer": false,
           "convertToMetric": false,
@@ -2773,23 +2851,23 @@
           },
           "types": {
             "FEW": {
-              "text": "FEW{altitude} FT ",
+              "text": "FEW{altitude:5} FT ",
               "voice": ",few clouds, at {altitude},"
             },
             "SCT": {
-              "text": "SCT{altitude}  FT  {convective}",
+              "text": "SCT{altitude:5}  FT  {convective}",
               "voice": ",{altitude} scattered, {convective},"
             },
             "BKN": {
-              "text": "BKN{altitude}  FT  {convective}",
+              "text": "BKN{altitude:5}  FT  {convective}",
               "voice": ",{altitude} broken, {convective},"
             },
             "OVC": {
-              "text": "OVC{altitude}  FT  {convective}",
+              "text": "OVC{altitude:5}  FT  {convective}",
               "voice": ",{altitude} overcast, {convective},"
             },
             "VV": {
-              "text": "VV{altitude}  FT",
+              "text": "VV{altitude:5}  FT",
               "voice": ",indefinite ceiling, {altitude},"
             },
             "NSC": {
@@ -2869,6 +2947,12 @@
             "voice": ",TRANSITION LEVEL, {trl}."
           }
         },
+        "notams": {
+          "template": {
+            "text": "NOTAMS... {notams}",
+            "voice": "NOTICES TO AIR MISSIONS: {notams}"
+          }
+        },
         "closingStatement": {
           "autoIncludeClosingStatement": false,
           "template": {
@@ -2881,7 +2965,6 @@
       "airportConditionsBeforeFreeText": true,
       "frequency": 123225000,
       "idsEndpoint": "",
-      "useNotamPrefix": false,
       "useDecimalTerminology": true,
       "atisVoice": {
         "useTextToSpeech": true,
@@ -3149,6 +3232,12 @@
             "voice": ",{weather},"
           }
         },
+        "recentWeather": {
+          "template": {
+            "text": "RECENT WEATHER {weather}",
+            "voice": "RECENT WEATHER {weather}"
+          }
+        },
         "clouds": {
           "identifyCeilingLayer": false,
           "convertToMetric": false,
@@ -3159,23 +3248,23 @@
           },
           "types": {
             "FEW": {
-              "text": "FEW{altitude} FT ",
+              "text": "FEW{altitude:5} FT ",
               "voice": ",few clouds, at {altitude},"
             },
             "SCT": {
-              "text": "SCT{altitude}  FT  {convective}",
+              "text": "SCT{altitude:5}  FT  {convective}",
               "voice": ",{altitude} scattered, {convective},"
             },
             "BKN": {
-              "text": "BKN{altitude}  FT  {convective}",
+              "text": "BKN{altitude:5}  FT  {convective}",
               "voice": ",{altitude} broken, {convective},"
             },
             "OVC": {
-              "text": "OVC{altitude}  FT  {convective}",
+              "text": "OVC{altitude:5}  FT  {convective}",
               "voice": ",{altitude} overcast, {convective},"
             },
             "VV": {
-              "text": "VV{altitude}  FT",
+              "text": "VV{altitude:5}  FT",
               "voice": ",indefinite ceiling, {altitude},"
             },
             "NSC": {
@@ -3255,6 +3344,12 @@
             "voice": ",TRANSITION LEVEL, {trl}."
           }
         },
+        "notams": {
+          "template": {
+            "text": "NOTAMS... {notams}",
+            "voice": "NOTICES TO AIR MISSIONS: {notams}"
+          }
+        },
         "closingStatement": {
           "autoIncludeClosingStatement": false,
           "template": {
@@ -3267,7 +3362,6 @@
       "airportConditionsBeforeFreeText": false,
       "frequency": 127350000,
       "idsEndpoint": "",
-      "useNotamPrefix": false,
       "useDecimalTerminology": true,
       "atisVoice": {
         "useTextToSpeech": true,
@@ -3532,6 +3626,12 @@
             "voice": ",{weather},"
           }
         },
+        "recentWeather": {
+          "template": {
+            "text": "RECENT WEATHER {weather}",
+            "voice": "RECENT WEATHER {weather}"
+          }
+        },
         "clouds": {
           "identifyCeilingLayer": false,
           "convertToMetric": false,
@@ -3542,23 +3642,23 @@
           },
           "types": {
             "FEW": {
-              "text": "FEW{altitude} FT ",
+              "text": "FEW{altitude:5} FT ",
               "voice": ",few clouds, at {altitude},"
             },
             "SCT": {
-              "text": "SCT{altitude}  FT  {convective}",
+              "text": "SCT{altitude:5}  FT  {convective}",
               "voice": ",{altitude} scattered, {convective},"
             },
             "BKN": {
-              "text": "BKN{altitude}  FT  {convective}",
+              "text": "BKN{altitude:5}  FT  {convective}",
               "voice": ",{altitude} broken, {convective},"
             },
             "OVC": {
-              "text": "OVC{altitude}  FT  {convective}",
+              "text": "OVC{altitude:5}  FT  {convective}",
               "voice": ",{altitude} overcast, {convective},"
             },
             "VV": {
-              "text": "VV{altitude}  FT",
+              "text": "VV{altitude:5}  FT",
               "voice": ",indefinite ceiling, {altitude},"
             },
             "NSC": {
@@ -3638,6 +3738,12 @@
             "voice": ",TRANSITION LEVEL, {trl}."
           }
         },
+        "notams": {
+          "template": {
+            "text": "NOTAMS... {notams}",
+            "voice": "NOTICES TO AIR MISSIONS: {notams}"
+          }
+        },
         "closingStatement": {
           "autoIncludeClosingStatement": false,
           "template": {
@@ -3650,7 +3756,6 @@
       "airportConditionsBeforeFreeText": false,
       "frequency": 118675000,
       "idsEndpoint": "",
-      "useNotamPrefix": false,
       "useDecimalTerminology": true,
       "atisVoice": {
         "useTextToSpeech": true,
@@ -3922,6 +4027,12 @@
             "voice": ",{weather},"
           }
         },
+        "recentWeather": {
+          "template": {
+            "text": "RECENT WEATHER {weather}",
+            "voice": "RECENT WEATHER {weather}"
+          }
+        },
         "clouds": {
           "identifyCeilingLayer": false,
           "convertToMetric": false,
@@ -3932,23 +4043,23 @@
           },
           "types": {
             "FEW": {
-              "text": "FEW{altitude} FT ",
+              "text": "FEW{altitude:5} FT ",
               "voice": ",few clouds, at {altitude},"
             },
             "SCT": {
-              "text": "SCT{altitude}  FT  {convective}",
+              "text": "SCT{altitude:5}  FT  {convective}",
               "voice": ",{altitude} scattered, {convective},"
             },
             "BKN": {
-              "text": "BKN{altitude}  FT  {convective}",
+              "text": "BKN{altitude:5}  FT  {convective}",
               "voice": ",{altitude} broken, {convective},"
             },
             "OVC": {
-              "text": "OVC{altitude}  FT  {convective}",
+              "text": "OVC{altitude:5}  FT  {convective}",
               "voice": ",{altitude} overcast, {convective},"
             },
             "VV": {
-              "text": "VV{altitude}  FT",
+              "text": "VV{altitude:5}  FT",
               "voice": ",indefinite ceiling, {altitude},"
             },
             "NSC": {
@@ -4028,6 +4139,12 @@
             "voice": ",TRANSITION LEVEL, {trl}."
           }
         },
+        "notams": {
+          "template": {
+            "text": "NOTAMS... {notams}",
+            "voice": "NOTICES TO AIR MISSIONS: {notams}"
+          }
+        },
         "closingStatement": {
           "autoIncludeClosingStatement": false,
           "template": {
@@ -4040,7 +4157,6 @@
       "airportConditionsBeforeFreeText": false,
       "frequency": 123600000,
       "idsEndpoint": "",
-      "useNotamPrefix": false,
       "useDecimalTerminology": true,
       "atisVoice": {
         "useTextToSpeech": true,
@@ -4413,6 +4529,12 @@
             "voice": ",{weather},"
           }
         },
+        "recentWeather": {
+          "template": {
+            "text": "RECENT WEATHER {weather}",
+            "voice": "RECENT WEATHER {weather}"
+          }
+        },
         "clouds": {
           "identifyCeilingLayer": false,
           "convertToMetric": false,
@@ -4423,23 +4545,23 @@
           },
           "types": {
             "FEW": {
-              "text": "FEW{altitude} FT ",
+              "text": "FEW{altitude:5} FT ",
               "voice": ",few clouds, at {altitude},"
             },
             "SCT": {
-              "text": "SCT{altitude}  FT  {convective}",
+              "text": "SCT{altitude:5}  FT  {convective}",
               "voice": ",{altitude} scattered, {convective},"
             },
             "BKN": {
-              "text": "BKN{altitude}  FT  {convective}",
+              "text": "BKN{altitude:5}  FT  {convective}",
               "voice": ",{altitude} broken, {convective},"
             },
             "OVC": {
-              "text": "OVC{altitude}  FT  {convective}",
+              "text": "OVC{altitude:5}  FT  {convective}",
               "voice": ",{altitude} overcast, {convective},"
             },
             "VV": {
-              "text": "VV{altitude}  FT",
+              "text": "VV{altitude:5}  FT",
               "voice": ",indefinite ceiling, {altitude},"
             },
             "NSC": {
@@ -4519,6 +4641,12 @@
             "voice": ",TRANSITION LEVEL, {trl}."
           }
         },
+        "notams": {
+          "template": {
+            "text": "NOTAMS... {notams}",
+            "voice": "NOTICES TO AIR MISSIONS: {notams}"
+          }
+        },
         "closingStatement": {
           "autoIncludeClosingStatement": false,
           "template": {
@@ -4531,7 +4659,6 @@
       "airportConditionsBeforeFreeText": true,
       "frequency": 119275000,
       "idsEndpoint": "",
-      "useNotamPrefix": false,
       "useDecimalTerminology": true,
       "atisVoice": {
         "useTextToSpeech": true,
@@ -4801,6 +4928,12 @@
             "voice": ",{weather},"
           }
         },
+        "recentWeather": {
+          "template": {
+            "text": "RECENT WEATHER {weather}",
+            "voice": "RECENT WEATHER {weather}"
+          }
+        },
         "clouds": {
           "identifyCeilingLayer": false,
           "convertToMetric": false,
@@ -4811,23 +4944,23 @@
           },
           "types": {
             "FEW": {
-              "text": "FEW{altitude} FT ",
+              "text": "FEW{altitude:5} FT ",
               "voice": ",few clouds, at {altitude},"
             },
             "SCT": {
-              "text": "SCT{altitude}  FT  {convective}",
+              "text": "SCT{altitude:5}  FT  {convective}",
               "voice": ",{altitude} scattered, {convective},"
             },
             "BKN": {
-              "text": "BKN{altitude}  FT  {convective}",
+              "text": "BKN{altitude:5}  FT  {convective}",
               "voice": ",{altitude} broken, {convective},"
             },
             "OVC": {
-              "text": "OVC{altitude}  FT  {convective}",
+              "text": "OVC{altitude:5}  FT  {convective}",
               "voice": ",{altitude} overcast, {convective},"
             },
             "VV": {
-              "text": "VV{altitude}  FT",
+              "text": "VV{altitude:5}  FT",
               "voice": ",indefinite ceiling, {altitude},"
             },
             "NSC": {
@@ -4907,6 +5040,12 @@
             "voice": ",TRANSITION LEVEL, {trl}."
           }
         },
+        "notams": {
+          "template": {
+            "text": "NOTAMS... {notams}",
+            "voice": "NOTICES TO AIR MISSIONS: {notams}"
+          }
+        },
         "closingStatement": {
           "autoIncludeClosingStatement": false,
           "template": {
@@ -4919,7 +5058,6 @@
       "airportConditionsBeforeFreeText": true,
       "frequency": 120950000,
       "idsEndpoint": "",
-      "useNotamPrefix": false,
       "useDecimalTerminology": true,
       "atisVoice": {
         "useTextToSpeech": true,
@@ -5161,6 +5299,12 @@
             "voice": ",{weather},"
           }
         },
+        "recentWeather": {
+          "template": {
+            "text": "RECENT WEATHER {weather}",
+            "voice": "RECENT WEATHER {weather}"
+          }
+        },
         "clouds": {
           "identifyCeilingLayer": false,
           "convertToMetric": false,
@@ -5171,23 +5315,23 @@
           },
           "types": {
             "FEW": {
-              "text": "FEW{altitude} FT ",
+              "text": "FEW{altitude:5} FT ",
               "voice": ",few clouds, at {altitude},"
             },
             "SCT": {
-              "text": "SCT{altitude}  FT  {convective}",
+              "text": "SCT{altitude:5}  FT  {convective}",
               "voice": ",{altitude} scattered, {convective},"
             },
             "BKN": {
-              "text": "BKN{altitude}  FT  {convective}",
+              "text": "BKN{altitude:5}  FT  {convective}",
               "voice": ",{altitude} broken, {convective},"
             },
             "OVC": {
-              "text": "OVC{altitude}  FT  {convective}",
+              "text": "OVC{altitude:5}  FT  {convective}",
               "voice": ",{altitude} overcast, {convective},"
             },
             "VV": {
-              "text": "VV{altitude}  FT",
+              "text": "VV{altitude:5}  FT",
               "voice": ",indefinite ceiling, {altitude},"
             },
             "NSC": {
@@ -5267,6 +5411,12 @@
             "voice": ",TRANSITION LEVEL, {trl}."
           }
         },
+        "notams": {
+          "template": {
+            "text": "NOTAMS... {notams}",
+            "voice": "NOTICES TO AIR MISSIONS: {notams}"
+          }
+        },
         "closingStatement": {
           "autoIncludeClosingStatement": false,
           "template": {
@@ -5275,11 +5425,10 @@
           }
         }
       },
-      "notamsBeforeFreeText": true,
+      "notamsBeforeFreeText": false,
       "airportConditionsBeforeFreeText": true,
       "frequency": 129750000,
       "idsEndpoint": "",
-      "useNotamPrefix": false,
       "useDecimalTerminology": true,
       "atisVoice": {
         "useTextToSpeech": true,
@@ -5300,7 +5449,7 @@
           "id": "a5fdcbb7-cba0-40f9-a103-ec6d2c4ca873",
           "name": "23",
           "notams": "AVOID OVERFLYING CITY OF ADANA BELOW 3000FT",
-          "template": "@LTAG ATIS INFORMATION [ATIS_CODE], [OBS_TIME]. RWY ^05, @EXP HI ILS APCH RWY ^23, [TL] [WIND] [VIS] [CLOUDS] [PRESENT_WX] [TEMP] [DEW] [PRESSURE] [TREND] [RVR] [RECENT_WX] [NOTAMS], [CLOSING]",
+          "template": "",
           "externalGenerator": {
             "enabled": false
           }
@@ -5555,6 +5704,12 @@
             "voice": ",{weather},"
           }
         },
+        "recentWeather": {
+          "template": {
+            "text": "RECENT WEATHER {weather}",
+            "voice": "RECENT WEATHER {weather}"
+          }
+        },
         "clouds": {
           "identifyCeilingLayer": false,
           "convertToMetric": false,
@@ -5565,23 +5720,23 @@
           },
           "types": {
             "FEW": {
-              "text": "FEW{altitude} FT ",
+              "text": "FEW{altitude:5} FT ",
               "voice": ",few clouds, at {altitude},"
             },
             "SCT": {
-              "text": "SCT{altitude}  FT  {convective}",
+              "text": "SCT{altitude:5}  FT  {convective}",
               "voice": ",{altitude} scattered, {convective},"
             },
             "BKN": {
-              "text": "BKN{altitude}  FT  {convective}",
+              "text": "BKN{altitude:5}  FT  {convective}",
               "voice": ",{altitude} broken, {convective},"
             },
             "OVC": {
-              "text": "OVC{altitude}  FT  {convective}",
+              "text": "OVC{altitude:5}  FT  {convective}",
               "voice": ",{altitude} overcast, {convective},"
             },
             "VV": {
-              "text": "VV{altitude}  FT",
+              "text": "VV{altitude:5}  FT",
               "voice": ",indefinite ceiling, {altitude},"
             },
             "NSC": {
@@ -5661,6 +5816,12 @@
             "voice": ",TRANSITION LEVEL, {trl}."
           }
         },
+        "notams": {
+          "template": {
+            "text": "NOTAMS... {notams}",
+            "voice": "NOTICES TO AIR MISSIONS: {notams}"
+          }
+        },
         "closingStatement": {
           "autoIncludeClosingStatement": false,
           "template": {
@@ -5673,7 +5834,6 @@
       "airportConditionsBeforeFreeText": true,
       "frequency": 129025000,
       "idsEndpoint": "",
-      "useNotamPrefix": false,
       "useDecimalTerminology": true,
       "atisVoice": {
         "useTextToSpeech": true,
@@ -5683,7 +5843,9 @@
         {
           "id": "2514f0ee-ac69-4ac0-8747-8c87a4964f04",
           "name": "05",
-          "template": "[FACILITY] ATIS INFORMATION [ATIS_CODE] [OBS_TIME] RWY ^05, @EXP LOC Z APCH RWY ^05 [TL] [WIND] [VIS] [CLOUDS] [PRESENT_WX] [TEMP] [DEW] [PRESSURE] [TREND] [RVR] [RECENT_WX] [NOTAMS] [CLOSING]",
+          "airportConditions": "",
+          "notams": "",
+          "template": "[FACILITY] ATIS INFORMATION [ATIS_CODE] [OBS_TIME] RWY ^05, @EXP LOC @Z APCH RWY ^05 [TL] [WIND] [VIS] [CLOUDS] [PRESENT_WX] [TEMP] [DEW] [PRESSURE] [TREND] [RVR] [RECENT_WX] [NOTAMS] [CLOSING]",
           "externalGenerator": {
             "enabled": false
           }
@@ -5691,7 +5853,7 @@
         {
           "id": "38e30257-01dc-4997-aa7e-a2432d3bed3a",
           "name": "23",
-          "template": "[FACILITY] ATIS INFORMATION [ATIS_CODE] [OBS_TIME] RWY ^23, @EXP LOC Z APCH RWY ^05 CIRCLE TO LAND ^23 [TL] [WIND] [VIS] [CLOUDS] [PRESENT_WX] [TEMP] [DEW] [PRESSURE] [TREND] [RVR] [RECENT_WX] [NOTAMS] [CLOSING]",
+          "template": "[FACILITY] ATIS INFORMATION [ATIS_CODE] [OBS_TIME] RWY ^23, @EXP LOC @Z APCH RWY ^05 CIRCLE TO LAND ^23 [TL] [WIND] [VIS] [CLOUDS] [PRESENT_WX] [TEMP] [DEW] [PRESSURE] [TREND] [RVR] [RECENT_WX] [NOTAMS] [CLOSING]",
           "externalGenerator": {
             "enabled": false
           }
@@ -5941,6 +6103,12 @@
             "voice": ",{weather},"
           }
         },
+        "recentWeather": {
+          "template": {
+            "text": "RECENT WEATHER {weather}",
+            "voice": "RECENT WEATHER {weather}"
+          }
+        },
         "clouds": {
           "identifyCeilingLayer": false,
           "convertToMetric": false,
@@ -5951,23 +6119,23 @@
           },
           "types": {
             "FEW": {
-              "text": "FEW{altitude} FT ",
+              "text": "FEW{altitude:5} FT ",
               "voice": ",few clouds, at {altitude},"
             },
             "SCT": {
-              "text": "SCT{altitude}  FT  {convective}",
+              "text": "SCT{altitude:5}  FT  {convective}",
               "voice": ",{altitude} scattered, {convective},"
             },
             "BKN": {
-              "text": "BKN{altitude}  FT  {convective}",
+              "text": "BKN{altitude:5}  FT  {convective}",
               "voice": ",{altitude} broken, {convective},"
             },
             "OVC": {
-              "text": "OVC{altitude}  FT  {convective}",
+              "text": "OVC{altitude:5}  FT  {convective}",
               "voice": ",{altitude} overcast, {convective},"
             },
             "VV": {
-              "text": "VV{altitude}  FT",
+              "text": "VV{altitude:5}  FT",
               "voice": ",indefinite ceiling, {altitude},"
             },
             "NSC": {
@@ -6047,6 +6215,12 @@
             "voice": ",TRANSITION LEVEL, {trl}."
           }
         },
+        "notams": {
+          "template": {
+            "text": "NOTAMS... {notams}",
+            "voice": "NOTICES TO AIR MISSIONS: {notams}"
+          }
+        },
         "closingStatement": {
           "autoIncludeClosingStatement": false,
           "template": {
@@ -6059,7 +6233,6 @@
       "airportConditionsBeforeFreeText": false,
       "frequency": 128850000,
       "idsEndpoint": "",
-      "useNotamPrefix": false,
       "useDecimalTerminology": true,
       "atisVoice": {
         "useTextToSpeech": true,
@@ -6177,7 +6350,7 @@
         {
           "text": "AIRBORNE FREQ 131.125",
           "ordinal": 1,
-          "enabled": true
+          "enabled": false
         },
         {
           "text": "AIRBORNE FREQ 133.225",
@@ -6416,6 +6589,12 @@
             "voice": ",{weather},"
           }
         },
+        "recentWeather": {
+          "template": {
+            "text": "RECENT WEATHER {weather}",
+            "voice": "RECENT WEATHER {weather}"
+          }
+        },
         "clouds": {
           "identifyCeilingLayer": false,
           "convertToMetric": false,
@@ -6426,23 +6605,23 @@
           },
           "types": {
             "FEW": {
-              "text": "FEW{altitude} FT ",
+              "text": "FEW{altitude:5} FT ",
               "voice": ",few clouds, at {altitude},"
             },
             "SCT": {
-              "text": "SCT{altitude}  FT  {convective}",
+              "text": "SCT{altitude:5}  FT  {convective}",
               "voice": ",{altitude} scattered, {convective},"
             },
             "BKN": {
-              "text": "BKN{altitude}  FT  {convective}",
+              "text": "BKN{altitude:5}  FT  {convective}",
               "voice": ",{altitude} broken, {convective},"
             },
             "OVC": {
-              "text": "OVC{altitude}  FT  {convective}",
+              "text": "OVC{altitude:5}  FT  {convective}",
               "voice": ",{altitude} overcast, {convective},"
             },
             "VV": {
-              "text": "VV{altitude}  FT",
+              "text": "VV{altitude:5}  FT",
               "voice": ",indefinite ceiling, {altitude},"
             },
             "NSC": {
@@ -6522,6 +6701,12 @@
             "voice": ",TRANSITION LEVEL, {trl}."
           }
         },
+        "notams": {
+          "template": {
+            "text": "NOTAMS... {notams}",
+            "voice": "NOTICES TO AIR MISSIONS: {notams}"
+          }
+        },
         "closingStatement": {
           "autoIncludeClosingStatement": false,
           "template": {
@@ -6530,11 +6715,10 @@
           }
         }
       },
-      "notamsBeforeFreeText": true,
+      "notamsBeforeFreeText": false,
       "airportConditionsBeforeFreeText": false,
       "frequency": 126350000,
       "idsEndpoint": "",
-      "useNotamPrefix": false,
       "useDecimalTerminology": true,
       "atisVoice": {
         "useTextToSpeech": true,
@@ -6953,6 +7137,12 @@
             "voice": ",{weather},"
           }
         },
+        "recentWeather": {
+          "template": {
+            "text": "RECENT WEATHER {weather}",
+            "voice": "RECENT WEATHER {weather}"
+          }
+        },
         "clouds": {
           "identifyCeilingLayer": false,
           "convertToMetric": false,
@@ -6963,23 +7153,23 @@
           },
           "types": {
             "FEW": {
-              "text": "FEW{altitude} FT ",
+              "text": "FEW{altitude:5} FT ",
               "voice": ",few clouds, at {altitude},"
             },
             "SCT": {
-              "text": "SCT{altitude}  FT  {convective}",
+              "text": "SCT{altitude:5}  FT  {convective}",
               "voice": ",{altitude} scattered, {convective},"
             },
             "BKN": {
-              "text": "BKN{altitude}  FT  {convective}",
+              "text": "BKN{altitude:5}  FT  {convective}",
               "voice": ",{altitude} broken, {convective},"
             },
             "OVC": {
-              "text": "OVC{altitude}  FT  {convective}",
+              "text": "OVC{altitude:5}  FT  {convective}",
               "voice": ",{altitude} overcast, {convective},"
             },
             "VV": {
-              "text": "VV{altitude}  FT",
+              "text": "VV{altitude:5}  FT",
               "voice": ",indefinite ceiling, {altitude},"
             },
             "NSC": {
@@ -7059,6 +7249,12 @@
             "voice": ",TRANSITION LEVEL, {trl}."
           }
         },
+        "notams": {
+          "template": {
+            "text": "NOTAMS... {notams}",
+            "voice": "NOTICES TO AIR MISSIONS: {notams}"
+          }
+        },
         "closingStatement": {
           "autoIncludeClosingStatement": false,
           "template": {
@@ -7071,7 +7267,6 @@
       "airportConditionsBeforeFreeText": true,
       "frequency": 124325000,
       "idsEndpoint": "",
-      "useNotamPrefix": false,
       "useDecimalTerminology": true,
       "atisVoice": {
         "useTextToSpeech": true,
@@ -7343,6 +7538,12 @@
             "voice": ",{weather},"
           }
         },
+        "recentWeather": {
+          "template": {
+            "text": "RECENT WEATHER {weather}",
+            "voice": "RECENT WEATHER {weather}"
+          }
+        },
         "clouds": {
           "identifyCeilingLayer": false,
           "convertToMetric": false,
@@ -7353,23 +7554,23 @@
           },
           "types": {
             "FEW": {
-              "text": "FEW{altitude} FT ",
+              "text": "FEW{altitude:5} FT ",
               "voice": ",few clouds, at {altitude},"
             },
             "SCT": {
-              "text": "SCT{altitude}  FT  {convective}",
+              "text": "SCT{altitude:5}  FT  {convective}",
               "voice": ",{altitude} scattered, {convective},"
             },
             "BKN": {
-              "text": "BKN{altitude}  FT  {convective}",
+              "text": "BKN{altitude:5}  FT  {convective}",
               "voice": ",{altitude} broken, {convective},"
             },
             "OVC": {
-              "text": "OVC{altitude}  FT  {convective}",
+              "text": "OVC{altitude:5}  FT  {convective}",
               "voice": ",{altitude} overcast, {convective},"
             },
             "VV": {
-              "text": "VV{altitude}  FT",
+              "text": "VV{altitude:5}  FT",
               "voice": ",indefinite ceiling, {altitude},"
             },
             "NSC": {
@@ -7449,6 +7650,12 @@
             "voice": ",TRANSITION LEVEL, {trl}."
           }
         },
+        "notams": {
+          "template": {
+            "text": "NOTAMS... {notams}",
+            "voice": "NOTICES TO AIR MISSIONS: {notams}"
+          }
+        },
         "closingStatement": {
           "autoIncludeClosingStatement": false,
           "template": {
@@ -7461,7 +7668,6 @@
       "airportConditionsBeforeFreeText": true,
       "frequency": 129200000,
       "idsEndpoint": "",
-      "useNotamPrefix": false,
       "useDecimalTerminology": true,
       "atisVoice": {
         "useTextToSpeech": true,
@@ -7761,6 +7967,12 @@
             "voice": ",{weather},"
           }
         },
+        "recentWeather": {
+          "template": {
+            "text": "RECENT WEATHER {weather}",
+            "voice": "RECENT WEATHER {weather}"
+          }
+        },
         "clouds": {
           "identifyCeilingLayer": false,
           "convertToMetric": false,
@@ -7771,23 +7983,23 @@
           },
           "types": {
             "FEW": {
-              "text": "FEW{altitude} FT ",
+              "text": "FEW{altitude:5} FT ",
               "voice": ",few clouds, at {altitude},"
             },
             "SCT": {
-              "text": "SCT{altitude}  FT  {convective}",
+              "text": "SCT{altitude:5}  FT  {convective}",
               "voice": ",{altitude} scattered, {convective},"
             },
             "BKN": {
-              "text": "BKN{altitude}  FT  {convective}",
+              "text": "BKN{altitude:5}  FT  {convective}",
               "voice": ",{altitude} broken, {convective},"
             },
             "OVC": {
-              "text": "OVC{altitude}  FT  {convective}",
+              "text": "OVC{altitude:5}  FT  {convective}",
               "voice": ",{altitude} overcast, {convective},"
             },
             "VV": {
-              "text": "VV{altitude}  FT",
+              "text": "VV{altitude:5}  FT",
               "voice": ",indefinite ceiling, {altitude},"
             },
             "NSC": {
@@ -7867,6 +8079,12 @@
             "voice": ",TRANSITION LEVEL, {trl}."
           }
         },
+        "notams": {
+          "template": {
+            "text": "NOTAMS... {notams}",
+            "voice": "NOTICES TO AIR MISSIONS: {notams}"
+          }
+        },
         "closingStatement": {
           "autoIncludeClosingStatement": false,
           "template": {
@@ -7879,7 +8097,6 @@
       "airportConditionsBeforeFreeText": true,
       "frequency": 128500000,
       "idsEndpoint": "",
-      "useNotamPrefix": false,
       "useDecimalTerminology": true,
       "atisVoice": {
         "useTextToSpeech": true,
@@ -8142,6 +8359,12 @@
             "voice": ",{weather},"
           }
         },
+        "recentWeather": {
+          "template": {
+            "text": "RECENT WEATHER {weather}",
+            "voice": "RECENT WEATHER {weather}"
+          }
+        },
         "clouds": {
           "identifyCeilingLayer": false,
           "convertToMetric": false,
@@ -8152,23 +8375,23 @@
           },
           "types": {
             "FEW": {
-              "text": "FEW{altitude} FT ",
+              "text": "FEW{altitude:5} FT ",
               "voice": ",few clouds, at {altitude},"
             },
             "SCT": {
-              "text": "SCT{altitude}  FT  {convective}",
+              "text": "SCT{altitude:5}  FT  {convective}",
               "voice": ",{altitude} scattered, {convective},"
             },
             "BKN": {
-              "text": "BKN{altitude}  FT  {convective}",
+              "text": "BKN{altitude:5}  FT  {convective}",
               "voice": ",{altitude} broken, {convective},"
             },
             "OVC": {
-              "text": "OVC{altitude}  FT  {convective}",
+              "text": "OVC{altitude:5}  FT  {convective}",
               "voice": ",{altitude} overcast, {convective},"
             },
             "VV": {
-              "text": "VV{altitude}  FT",
+              "text": "VV{altitude:5}  FT",
               "voice": ",indefinite ceiling, {altitude},"
             },
             "NSC": {
@@ -8248,6 +8471,12 @@
             "voice": ",TRANSITION LEVEL, {trl}."
           }
         },
+        "notams": {
+          "template": {
+            "text": "NOTAMS... {notams}",
+            "voice": "NOTICES TO AIR MISSIONS: {notams}"
+          }
+        },
         "closingStatement": {
           "autoIncludeClosingStatement": false,
           "template": {
@@ -8260,7 +8489,6 @@
       "airportConditionsBeforeFreeText": true,
       "frequency": 125150000,
       "idsEndpoint": "",
-      "useNotamPrefix": false,
       "useDecimalTerminology": true,
       "atisVoice": {
         "useTextToSpeech": true,
@@ -8532,6 +8760,12 @@
             "voice": ",{weather},"
           }
         },
+        "recentWeather": {
+          "template": {
+            "text": "RECENT WEATHER {weather}",
+            "voice": "RECENT WEATHER {weather}"
+          }
+        },
         "clouds": {
           "identifyCeilingLayer": false,
           "convertToMetric": false,
@@ -8542,23 +8776,23 @@
           },
           "types": {
             "FEW": {
-              "text": "FEW{altitude} FT ",
+              "text": "FEW{altitude:5} FT ",
               "voice": ",few clouds, at {altitude},"
             },
             "SCT": {
-              "text": "SCT{altitude}  FT  {convective}",
+              "text": "SCT{altitude:5}  FT  {convective}",
               "voice": ",{altitude} scattered, {convective},"
             },
             "BKN": {
-              "text": "BKN{altitude}  FT  {convective}",
+              "text": "BKN{altitude:5}  FT  {convective}",
               "voice": ",{altitude} broken, {convective},"
             },
             "OVC": {
-              "text": "OVC{altitude}  FT  {convective}",
+              "text": "OVC{altitude:5}  FT  {convective}",
               "voice": ",{altitude} overcast, {convective},"
             },
             "VV": {
-              "text": "VV{altitude}  FT",
+              "text": "VV{altitude:5}  FT",
               "voice": ",indefinite ceiling, {altitude},"
             },
             "NSC": {
@@ -8638,6 +8872,12 @@
             "voice": ",TRANSITION LEVEL, {trl}."
           }
         },
+        "notams": {
+          "template": {
+            "text": "NOTAMS... {notams}",
+            "voice": "NOTICES TO AIR MISSIONS: {notams}"
+          }
+        },
         "closingStatement": {
           "autoIncludeClosingStatement": false,
           "template": {
@@ -8650,7 +8890,6 @@
       "airportConditionsBeforeFreeText": true,
       "frequency": 125100000,
       "idsEndpoint": "",
-      "useNotamPrefix": false,
       "useDecimalTerminology": true,
       "atisVoice": {
         "useTextToSpeech": true,
@@ -8920,6 +9159,12 @@
             "voice": ",{weather},"
           }
         },
+        "recentWeather": {
+          "template": {
+            "text": "RECENT WEATHER {weather}",
+            "voice": "RECENT WEATHER {weather}"
+          }
+        },
         "clouds": {
           "identifyCeilingLayer": false,
           "convertToMetric": false,
@@ -8930,23 +9175,23 @@
           },
           "types": {
             "FEW": {
-              "text": "FEW{altitude} FT ",
+              "text": "FEW{altitude:5} FT ",
               "voice": ",few clouds, at {altitude},"
             },
             "SCT": {
-              "text": "SCT{altitude}  FT  {convective}",
+              "text": "SCT{altitude:5}  FT  {convective}",
               "voice": ",{altitude} scattered, {convective},"
             },
             "BKN": {
-              "text": "BKN{altitude}  FT  {convective}",
+              "text": "BKN{altitude:5}  FT  {convective}",
               "voice": ",{altitude} broken, {convective},"
             },
             "OVC": {
-              "text": "OVC{altitude}  FT  {convective}",
+              "text": "OVC{altitude:5}  FT  {convective}",
               "voice": ",{altitude} overcast, {convective},"
             },
             "VV": {
-              "text": "VV{altitude}  FT",
+              "text": "VV{altitude:5}  FT",
               "voice": ",indefinite ceiling, {altitude},"
             },
             "NSC": {
@@ -9026,6 +9271,12 @@
             "voice": ",TRANSITION LEVEL, {trl}."
           }
         },
+        "notams": {
+          "template": {
+            "text": "NOTAMS... {notams}",
+            "voice": "NOTICES TO AIR MISSIONS: {notams}"
+          }
+        },
         "closingStatement": {
           "autoIncludeClosingStatement": false,
           "template": {
@@ -9038,7 +9289,6 @@
       "airportConditionsBeforeFreeText": false,
       "frequency": 128550000,
       "idsEndpoint": "",
-      "useNotamPrefix": false,
       "useDecimalTerminology": true,
       "atisVoice": {
         "useTextToSpeech": true,
@@ -9167,7 +9417,7 @@
         {
           "text": "AIRBORNE FREQ 126.425",
           "ordinal": 1,
-          "enabled": true
+          "enabled": false
         },
         {
           "text": "AIRBORNE FREQ 122.475",
@@ -9197,7 +9447,7 @@
         {
           "text": "BEFORE @D TWY CTC GND FREQ 121.750",
           "ordinal": 7,
-          "enabled": true
+          "enabled": false
         },
         {
           "text": "BEFORE @D TWY CTC GND FREQ 121.580",
@@ -9431,6 +9681,12 @@
             "voice": ",{weather},"
           }
         },
+        "recentWeather": {
+          "template": {
+            "text": "RECENT WEATHER {weather}",
+            "voice": "RECENT WEATHER {weather}"
+          }
+        },
         "clouds": {
           "identifyCeilingLayer": false,
           "convertToMetric": false,
@@ -9441,23 +9697,23 @@
           },
           "types": {
             "FEW": {
-              "text": "FEW{altitude} FT ",
+              "text": "FEW{altitude:5} FT ",
               "voice": ",few clouds, at {altitude},"
             },
             "SCT": {
-              "text": "SCT{altitude}  FT  {convective}",
+              "text": "SCT{altitude:5}  FT  {convective}",
               "voice": ",{altitude} scattered, {convective},"
             },
             "BKN": {
-              "text": "BKN{altitude}  FT  {convective}",
+              "text": "BKN{altitude:5}  FT  {convective}",
               "voice": ",{altitude} broken, {convective},"
             },
             "OVC": {
-              "text": "OVC{altitude}  FT  {convective}",
+              "text": "OVC{altitude:5}  FT  {convective}",
               "voice": ",{altitude} overcast, {convective},"
             },
             "VV": {
-              "text": "VV{altitude}  FT",
+              "text": "VV{altitude:5}  FT",
               "voice": ",indefinite ceiling, {altitude},"
             },
             "NSC": {
@@ -9537,6 +9793,12 @@
             "voice": ",TRANSITION LEVEL, {trl}."
           }
         },
+        "notams": {
+          "template": {
+            "text": "NOTAMS... {notams}",
+            "voice": "NOTICES TO AIR MISSIONS: {notams}"
+          }
+        },
         "closingStatement": {
           "autoIncludeClosingStatement": false,
           "template": {
@@ -9549,7 +9811,6 @@
       "airportConditionsBeforeFreeText": false,
       "frequency": 119225000,
       "idsEndpoint": "",
-      "useNotamPrefix": false,
       "useDecimalTerminology": true,
       "atisVoice": {
         "useTextToSpeech": true,
@@ -9826,6 +10087,12 @@
             "voice": ",{weather},"
           }
         },
+        "recentWeather": {
+          "template": {
+            "text": "RECENT WEATHER {weather}",
+            "voice": "RECENT WEATHER {weather}"
+          }
+        },
         "clouds": {
           "identifyCeilingLayer": false,
           "convertToMetric": false,
@@ -9836,23 +10103,23 @@
           },
           "types": {
             "FEW": {
-              "text": "FEW{altitude} FT ",
+              "text": "FEW{altitude:5} FT ",
               "voice": ",few clouds, at {altitude},"
             },
             "SCT": {
-              "text": "SCT{altitude}  FT  {convective}",
+              "text": "SCT{altitude:5}  FT  {convective}",
               "voice": ",{altitude} scattered, {convective},"
             },
             "BKN": {
-              "text": "BKN{altitude}  FT  {convective}",
+              "text": "BKN{altitude:5}  FT  {convective}",
               "voice": ",{altitude} broken, {convective},"
             },
             "OVC": {
-              "text": "OVC{altitude}  FT  {convective}",
+              "text": "OVC{altitude:5}  FT  {convective}",
               "voice": ",{altitude} overcast, {convective},"
             },
             "VV": {
-              "text": "VV{altitude}  FT",
+              "text": "VV{altitude:5}  FT",
               "voice": ",indefinite ceiling, {altitude},"
             },
             "NSC": {
@@ -9932,6 +10199,12 @@
             "voice": ",TRANSITION LEVEL, {trl}."
           }
         },
+        "notams": {
+          "template": {
+            "text": "NOTAMS... {notams}",
+            "voice": "NOTICES TO AIR MISSIONS: {notams}"
+          }
+        },
         "closingStatement": {
           "autoIncludeClosingStatement": false,
           "template": {
@@ -9944,7 +10217,6 @@
       "airportConditionsBeforeFreeText": false,
       "frequency": 118625000,
       "idsEndpoint": "",
-      "useNotamPrefix": false,
       "useDecimalTerminology": true,
       "atisVoice": {
         "useTextToSpeech": true,
@@ -10216,6 +10488,12 @@
             "voice": ",{weather},"
           }
         },
+        "recentWeather": {
+          "template": {
+            "text": "RECENT WEATHER {weather}",
+            "voice": "RECENT WEATHER {weather}"
+          }
+        },
         "clouds": {
           "identifyCeilingLayer": false,
           "convertToMetric": false,
@@ -10226,23 +10504,23 @@
           },
           "types": {
             "FEW": {
-              "text": "FEW{altitude} FT ",
+              "text": "FEW{altitude:5} FT ",
               "voice": ",few clouds, at {altitude},"
             },
             "SCT": {
-              "text": "SCT{altitude}  FT  {convective}",
+              "text": "SCT{altitude:5}  FT  {convective}",
               "voice": ",{altitude} scattered, {convective},"
             },
             "BKN": {
-              "text": "BKN{altitude}  FT  {convective}",
+              "text": "BKN{altitude:5}  FT  {convective}",
               "voice": ",{altitude} broken, {convective},"
             },
             "OVC": {
-              "text": "OVC{altitude}  FT  {convective}",
+              "text": "OVC{altitude:5}  FT  {convective}",
               "voice": ",{altitude} overcast, {convective},"
             },
             "VV": {
-              "text": "VV{altitude}  FT",
+              "text": "VV{altitude:5}  FT",
               "voice": ",indefinite ceiling, {altitude},"
             },
             "NSC": {
@@ -10322,6 +10600,12 @@
             "voice": ",TRANSITION LEVEL, {trl}."
           }
         },
+        "notams": {
+          "template": {
+            "text": "NOTAMS... {notams}",
+            "voice": "NOTICES TO AIR MISSIONS: {notams}"
+          }
+        },
         "closingStatement": {
           "autoIncludeClosingStatement": false,
           "template": {
@@ -10334,7 +10618,6 @@
       "airportConditionsBeforeFreeText": true,
       "frequency": 125400000,
       "idsEndpoint": "",
-      "useNotamPrefix": false,
       "useDecimalTerminology": true,
       "atisVoice": {
         "useTextToSpeech": true,
@@ -10582,6 +10865,12 @@
             "voice": ",{weather},"
           }
         },
+        "recentWeather": {
+          "template": {
+            "text": "RECENT WEATHER {weather}",
+            "voice": "RECENT WEATHER {weather}"
+          }
+        },
         "clouds": {
           "identifyCeilingLayer": false,
           "convertToMetric": false,
@@ -10592,23 +10881,23 @@
           },
           "types": {
             "FEW": {
-              "text": "FEW{altitude} FT ",
+              "text": "FEW{altitude:5} FT ",
               "voice": ",few clouds, at {altitude},"
             },
             "SCT": {
-              "text": "SCT{altitude}  FT  {convective}",
+              "text": "SCT{altitude:5}  FT  {convective}",
               "voice": ",{altitude} scattered, {convective},"
             },
             "BKN": {
-              "text": "BKN{altitude}  FT  {convective}",
+              "text": "BKN{altitude:5}  FT  {convective}",
               "voice": ",{altitude} broken, {convective},"
             },
             "OVC": {
-              "text": "OVC{altitude}  FT  {convective}",
+              "text": "OVC{altitude:5}  FT  {convective}",
               "voice": ",{altitude} overcast, {convective},"
             },
             "VV": {
-              "text": "VV{altitude}  FT",
+              "text": "VV{altitude:5}  FT",
               "voice": ",indefinite ceiling, {altitude},"
             },
             "NSC": {
@@ -10688,6 +10977,12 @@
             "voice": ",TRANSITION LEVEL, {trl}."
           }
         },
+        "notams": {
+          "template": {
+            "text": "NOTAMS... {notams}",
+            "voice": "NOTICES TO AIR MISSIONS: {notams}"
+          }
+        },
         "closingStatement": {
           "autoIncludeClosingStatement": false,
           "template": {
@@ -10700,7 +10995,6 @@
       "airportConditionsBeforeFreeText": true,
       "frequency": 124575000,
       "idsEndpoint": "",
-      "useNotamPrefix": false,
       "useDecimalTerminology": true,
       "atisVoice": {
         "useTextToSpeech": true,
@@ -10958,6 +11252,12 @@
             "voice": ",{weather},"
           }
         },
+        "recentWeather": {
+          "template": {
+            "text": "RECENT WEATHER {weather}",
+            "voice": "RECENT WEATHER {weather}"
+          }
+        },
         "clouds": {
           "identifyCeilingLayer": false,
           "convertToMetric": false,
@@ -10968,23 +11268,23 @@
           },
           "types": {
             "FEW": {
-              "text": "FEW{altitude} FT ",
+              "text": "FEW{altitude:5} FT ",
               "voice": ",few clouds, at {altitude},"
             },
             "SCT": {
-              "text": "SCT{altitude}  FT  {convective}",
+              "text": "SCT{altitude:5}  FT  {convective}",
               "voice": ",{altitude} scattered, {convective},"
             },
             "BKN": {
-              "text": "BKN{altitude}  FT  {convective}",
+              "text": "BKN{altitude:5}  FT  {convective}",
               "voice": ",{altitude} broken, {convective},"
             },
             "OVC": {
-              "text": "OVC{altitude}  FT  {convective}",
+              "text": "OVC{altitude:5}  FT  {convective}",
               "voice": ",{altitude} overcast, {convective},"
             },
             "VV": {
-              "text": "VV{altitude}  FT",
+              "text": "VV{altitude:5}  FT",
               "voice": ",indefinite ceiling, {altitude},"
             },
             "NSC": {
@@ -11064,6 +11364,12 @@
             "voice": ",TRANSITION LEVEL, {trl}."
           }
         },
+        "notams": {
+          "template": {
+            "text": "NOTAMS... {notams}",
+            "voice": "NOTICES TO AIR MISSIONS: {notams}"
+          }
+        },
         "closingStatement": {
           "autoIncludeClosingStatement": false,
           "template": {
@@ -11075,7 +11381,6 @@
       "notamsBeforeFreeText": false,
       "airportConditionsBeforeFreeText": false,
       "frequency": 127225000,
-      "useNotamPrefix": false,
       "useDecimalTerminology": true,
       "atisVoice": {
         "useTextToSpeech": true,
