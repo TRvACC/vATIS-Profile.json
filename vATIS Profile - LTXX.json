@@ -3,7 +3,7 @@
   "name": "LTXX",
   "id": "31ecf3b4-c6dd-4eca-8442-3b68f29b2104",
   "updateUrl": "https://raw.githubusercontent.com/TRvACC/vATIS-Profile.json/refs/heads/main/vATIS%20Profile%20-%20LTXX.json",
-  "updateSerial": 2025020401,
+  "updateSerial": 2025021001,
   "stations": [
     {
       "id": "0246f9d7-62d1-4c22-9ab4-664635164b4d",
@@ -13670,7 +13670,7 @@
         {
           "id": "08cd4917-818e-4395-8350-cac066c214c2",
           "name": "03R",
-          "template": "[FACILITY] ATIS INFORMATION [ATIS_CODE] [OBS_TIME] RWY ^03R @EXP ILS @Z APCH RWY ^03R [TL] [WIND] [VIS] [CLOUDS] [PRESENT_WX] [TEMP] [DEW] [PRESSURE] [TREND] [RVR] [RECENT_WX] [NOTAMS] [CLOSING]",
+          "template": "[FACILITY] ATIS INFORMATION [ATIS_CODE] [OBS_TIME] RWY ^03R @EXP ILS @Y APCH RWY ^03R [TL] [WIND] [VIS] [CLOUDS] [PRESENT_WX] [TEMP] [DEW] [PRESSURE] [TREND] [RVR] [RECENT_WX] [NOTAMS] [CLOSING]",
           "externalGenerator": {
             "enabled": false
           }
@@ -13678,7 +13678,7 @@
         {
           "id": "03348c0b-8b0b-42f6-8251-5b43b862a65f",
           "name": "21L",
-          "template": "[FACILITY] ATIS INFORMATION [ATIS_CODE] [OBS_TIME] RWY ^21L @EXP ILS @Z APCH RWY ^21L [TL] [WIND] [VIS] [CLOUDS] [PRESENT_WX] [TEMP] [DEW] [PRESSURE] [TREND] [RVR] [RECENT_WX] [NOTAMS] [CLOSING]",
+          "template": "[FACILITY] ATIS INFORMATION [ATIS_CODE] [OBS_TIME] RWY ^21L @EXP ILS @Y APCH RWY ^21L [TL] [WIND] [VIS] [CLOUDS] [PRESENT_WX] [TEMP] [DEW] [PRESSURE] [TREND] [RVR] [RECENT_WX] [NOTAMS] [CLOSING]",
           "externalGenerator": {
             "enabled": false
           }
