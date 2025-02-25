@@ -3,7 +3,7 @@
   "name": "LTXX",
   "id": "3e73ae66-a651-4652-b887-b9f8a9300167",
   "updateUrl": "https://raw.githubusercontent.com/TRvACC/vATIS-Profile.json/refs/heads/main/vATIS%20Profile%20-%20LTXX.json",
-  "updateSerial": 2025022501,
+  "updateSerial": 2025022502,
   "stations": [
     {
       "id": "0246f9d7-62d1-4c22-9ab4-664635164b4d",
@@ -43120,6 +43120,11 @@
           "variableName": "RECIEVE",
           "text": "RECIEVE",
           "voice": ".RECIEVE,"
+        },
+        {
+          "variableName": "EXP",
+          "text": "EXP",
+          "voice": "EXPECT"
         }
       ],
       "airportConditionDefinitions": [
