@@ -2,7 +2,7 @@
   "name": "LTXX",
   "id": "0cac1779-e488-4d86-84b6-c95d05dd6cf9",
   "updateUrl": "https://raw.githubusercontent.com/TRvACC/vATIS-Profile.json/refs/heads/main/vATIS%20Profile%20-%20LTXX.json",
-  "updateSerial": 2025051501,
+  "updateSerial": 2025051502,
   "stations": [
     {
       "id": "0246f9d7-62d1-4c22-9ab4-664635164b4d",
@@ -2000,7 +2000,7 @@
           "id": "04f0cdc0-dfeb-460f-b7dd-e347c9e84b70",
           "ordinal": 4,
           "name": "18C",
-          "template": "[FACILITY] ARR ATIS INFORMATION [ATIS_CODE] [OBS_TIME] @EXP ILS @Z APCH RWY 18C [TL] [WIND] [VIS] [CLOUDS] [PRESENT_WX] [TEMP] [DEW] [PRESSURE] [TREND] [RVR] [RECENT_WX] [NOTAMS] [ARPT_COND] [CLOSING]",
+          "template": "[FACILITY] ARR ATIS INFORMATION [ATIS_CODE] [OBS_TIME] @EXP ILS @X APCH RWY 18C [TL] [WIND] [VIS] [CLOUDS] [PRESENT_WX] [TEMP] [DEW] [PRESSURE] [TREND] [RVR] [RECENT_WX] [NOTAMS] [ARPT_COND] [CLOSING]",
           "externalGenerator": {
             "enabled": false
           }
@@ -2011,7 +2011,7 @@
           "name": "18L",
           "airportConditions": "",
           "notams": "",
-          "template": "[FACILITY] ARR ATIS INFORMATION [ATIS_CODE] [OBS_TIME] @EXP ILS @Z APCH RWY 18L [TL] [WIND] [VIS] [CLOUDS] [PRESENT_WX] [TEMP] [DEW] [PRESSURE] [TREND] [RVR] [RECENT_WX] [NOTAMS] [ARPT_COND] [CLOSING]",
+          "template": "[FACILITY] ARR ATIS INFORMATION [ATIS_CODE] [OBS_TIME] @EXP ILS @Y APCH RWY 18L [TL] [WIND] [VIS] [CLOUDS] [PRESENT_WX] [TEMP] [DEW] [PRESSURE] [TREND] [RVR] [RECENT_WX] [NOTAMS] [ARPT_COND] [CLOSING]",
           "externalGenerator": {
             "enabled": false
           }
@@ -2021,7 +2021,7 @@
           "ordinal": 5,
           "name": "36C",
           "airportConditions": "",
-          "template": "[FACILITY] ARR ATIS INFORMATION [ATIS_CODE] [OBS_TIME] @EXP ILS @Y APCH RWY 36C [TL] [WIND] [VIS] [CLOUDS] [PRESENT_WX] [TEMP] [DEW] [PRESSURE] [TREND] [RVR] [RECENT_WX] [NOTAMS] [ARPT_COND] [CLOSING]",
+          "template": "[FACILITY] ARR ATIS INFORMATION [ATIS_CODE] [OBS_TIME] @EXP ILS @W APCH RWY 36C [TL] [WIND] [VIS] [CLOUDS] [PRESENT_WX] [TEMP] [DEW] [PRESSURE] [TREND] [RVR] [RECENT_WX] [NOTAMS] [ARPT_COND] [CLOSING]",
           "externalGenerator": {
             "enabled": false
           }
@@ -2031,7 +2031,7 @@
           "ordinal": 7,
           "name": "36R",
           "airportConditions": "",
-          "template": "[FACILITY] ARR ATIS INFORMATION [ATIS_CODE] [OBS_TIME] @EXP ILS @V APCH RWY 36R [TL] [WIND] [VIS] [CLOUDS] [PRESENT_WX] [TEMP] [DEW] [PRESSURE] [TREND] [RVR] [RECENT_WX] [NOTAMS] [ARPT_COND] [CLOSING]",
+          "template": "[FACILITY] ARR ATIS INFORMATION [ATIS_CODE] [OBS_TIME] @EXP ILS @P APCH RWY 36R [TL] [WIND] [VIS] [CLOUDS] [PRESENT_WX] [TEMP] [DEW] [PRESSURE] [TREND] [RVR] [RECENT_WX] [NOTAMS] [ARPT_COND] [CLOSING]",
           "externalGenerator": {
             "enabled": false
           }
@@ -4199,7 +4199,7 @@
         {
           "text": "DEP FREQ 129.425",
           "ordinal": 6,
-          "enabled": false
+          "enabled": true
         }
       ],
       "notamDefinitions": [
@@ -30631,7 +30631,7 @@
         {
           "text": "AIRBORNE FREQ 129.425",
           "ordinal": 9,
-          "enabled": false
+          "enabled": true
         }
       ],
       "notamDefinitions": [
