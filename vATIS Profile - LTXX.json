@@ -2,7 +2,7 @@
   "name": "LTXX",
   "id": "0cac1779-e488-4d86-84b6-c95d05dd6cf9",
   "updateUrl": "https://raw.githubusercontent.com/TRvACC/vATIS-Profile.json/refs/heads/main/vATIS%20Profile%20-%20LTXX.json",
-  "updateSerial": 2025051502,
+  "updateSerial": 2025051601,
   "stations": [
     {
       "id": "0246f9d7-62d1-4c22-9ab4-664635164b4d",
@@ -2074,33 +2074,38 @@
       "notamDefinitions": [
         {
           "text": "RWY 36C CLSD.",
-          "ordinal": 4,
-          "enabled": false
-        },
-        {
-          "text": "RWY 18C CLSD.",
           "ordinal": 1,
           "enabled": false
         },
         {
-          "text": "RWY 36R CLSD.",
-          "ordinal": 5,
-          "enabled": false
-        },
-        {
-          "text": "RWY 18L CLSD.",
+          "text": "RWY 18C CLSD.",
           "ordinal": 2,
           "enabled": false
         },
         {
+          "text": "RWY 36R CLSD.",
+          "ordinal": 3,
+          "enabled": false
+        },
+        {
+          "text": "RWY 18L CLSD.",
+          "ordinal": 4,
+          "enabled": false
+        },
+        {
           "text": "RWY 36L CLSD.",
-          "ordinal": 6,
+          "ordinal": 5,
           "enabled": false
         },
         {
           "text": "RWY 18R CLSD.",
-          "ordinal": 3,
+          "ordinal": 6,
           "enabled": false
+        },
+        {
+          "text": "NOTIFY ATC IF AIRAC 2505 NOT ON BOARD",
+          "ordinal": 7,
+          "enabled": true
         }
       ]
     },
@@ -4205,33 +4210,38 @@
       "notamDefinitions": [
         {
           "text": "RWY 36C CLSD.",
-          "ordinal": 4,
-          "enabled": false
-        },
-        {
-          "text": "RWY 18C CLSD.",
           "ordinal": 1,
           "enabled": false
         },
         {
-          "text": "RWY 36R CLSD.",
-          "ordinal": 5,
-          "enabled": false
-        },
-        {
-          "text": "RWY 18L CLSD.",
+          "text": "RWY 18C CLSD.",
           "ordinal": 2,
           "enabled": false
         },
         {
+          "text": "RWY 36R CLSD.",
+          "ordinal": 3,
+          "enabled": false
+        },
+        {
+          "text": "RWY 18L CLSD.",
+          "ordinal": 4,
+          "enabled": false
+        },
+        {
           "text": "RWY 36L CLSD.",
-          "ordinal": 6,
+          "ordinal": 5,
           "enabled": false
         },
         {
           "text": "RWY 18R CLSD.",
-          "ordinal": 3,
+          "ordinal": 6,
           "enabled": false
+        },
+        {
+          "text": "NOTIFY ATC IF AIRAC 2505 NOT ON BOARD",
+          "ordinal": 7,
+          "enabled": true
         }
       ]
     },
@@ -6287,9 +6297,9 @@
       ],
       "notamDefinitions": [
         {
-          "text": "NOTIFY ATC IF AIRAC 2504 NOT ON BOARD",
+          "text": "NOTIFY ATC IF AIRAC 2505 NOT ON BOARD",
           "ordinal": 1,
-          "enabled": false
+          "enabled": true
         }
       ]
     },
@@ -30636,9 +30646,9 @@
       ],
       "notamDefinitions": [
         {
-          "text": "NOTIFY ATC IF AIRAC 2504 NOT ON BOARD",
+          "text": "NOTIFY ATC IF AIRAC 2505 NOT ON BOARD",
           "ordinal": 1,
-          "enabled": false
+          "enabled": true
         }
       ]
     },
@@ -32823,9 +32833,9 @@
       ],
       "notamDefinitions": [
         {
-          "text": "NOTIFY ATC IF AIRAC 2504 NOT ON BOARD",
+          "text": "NOTIFY ATC IF AIRAC 2505 NOT ON BOARD",
           "ordinal": 1,
-          "enabled": false
+          "enabled": true
         }
       ]
     },
@@ -36806,7 +36816,7 @@
           "name": "16L",
           "airportConditions": "",
           "notams": "",
-          "template": "@LTBJ ATIS INFORMATION [ATIS_CODE] [OBS_TIME] RWY 16L @EXP ILS @X APCH RWY 16L [TL] [WIND] [VIS] [CLOUDS] [PRESENT_WX] [TEMP] [DEW] [PRESSURE] [TREND] [RVR] [RECENT_WX] [NOTAMS] DEP TFC INTXN @N IS @MANDA REPORT IF UNABLE TO EXECUTE INTXN DEPS [CLOSING]",
+          "template": "@LTBJ ATIS INFORMATION [ATIS_CODE] [OBS_TIME] RWY 16L @EXP ILS X APCH RWY 16L [TL] [WIND] [VIS] [CLOUDS] [PRESENT_WX] [TEMP] [DEW] [PRESSURE] [TREND] [RVR] [RECENT_WX] [NOTAMS] DEP TFC INTXN @N IS @MANDA REPORT IF UNABLE TO EXECUTE INTXN DEPS [CLOSING]",
           "externalGenerator": {
             "enabled": false
           }
@@ -36817,7 +36827,7 @@
           "name": "34R",
           "airportConditions": "",
           "notams": "",
-          "template": "@LTBJ ATIS INFORMATION [ATIS_CODE] [OBS_TIME] RWY 34R @EXP ILS @U APCH RWY 34R [TL] [WIND] [VIS] [CLOUDS] [PRESENT_WX] [TEMP] [DEW] [PRESSURE] [TREND] [RVR] [RECENT_WX] [NOTAMS] DEP TFC INTXN @J IS @MANDA REPORT IF UNABLE TO EXECUTE INTXN DEPS [CLOSING]",
+          "template": "@LTBJ ATIS INFORMATION [ATIS_CODE] [OBS_TIME] RWY 34R @EXP ILS U APCH RWY 34R [TL] [WIND] [VIS] [CLOUDS] [PRESENT_WX] [TEMP] [DEW] [PRESSURE] [TREND] [RVR] [RECENT_WX] [NOTAMS] DEP TFC INTXN @J IS @MANDA REPORT IF UNABLE TO EXECUTE INTXN DEPS [CLOSING]",
           "externalGenerator": {
             "enabled": false
           }
@@ -36863,6 +36873,11 @@
           "variableName": "MANDA",
           "text": "MANDATORY",
           "voice": "MANDATORY."
+        },
+        {
+          "variableName": "U",
+          "text": "U",
+          "voice": "UNIFORM"
         }
       ],
       "airportConditionDefinitions": [],
@@ -36876,6 +36891,11 @@
           "text": "RWY 16R/34L CLSD.",
           "ordinal": 2,
           "enabled": false
+        },
+        {
+          "text": "NOTIFY ATC IF AIRAC 2505 NOT ON BOARD",
+          "ordinal": 3,
+          "enabled": true
         }
       ]
     },
@@ -45038,9 +45058,9 @@
       ],
       "notamDefinitions": [
         {
-          "text": "NOTIFY ATC IF AIRAC 2504 NOT ON BOARD",
+          "text": "NOTIFY ATC IF AIRAC 2505 NOT ON BOARD",
           "ordinal": 1,
-          "enabled": false
+          "enabled": true
         }
       ]
     },
