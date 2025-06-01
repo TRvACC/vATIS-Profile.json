@@ -2,7 +2,7 @@
   "name": "LTXX",
   "id": "0cac1779-e488-4d86-84b6-c95d05dd6cf9",
   "updateUrl": "https://raw.githubusercontent.com/TRvACC/vATIS-Profile.json/refs/heads/main/vATIS%20Profile%20-%20LTXX.json",
-  "updateSerial": 2025060101,
+  "updateSerial": 2025060102,
   "stations": [
     {
       "id": "0246f9d7-62d1-4c22-9ab4-664635164b4d",
@@ -6371,7 +6371,7 @@
         {
           "text": "AIRBORNE FREQ 132.150",
           "ordinal": 8,
-          "enabled": true
+          "enabled": false
         },
         {
           "text": "AIRBORNE FREQ 129.425",
@@ -31062,7 +31062,7 @@
         {
           "text": "AIRBORNE FREQ 132.150",
           "ordinal": 8,
-          "enabled": true
+          "enabled": false
         },
         {
           "text": "AIRBORNE FREQ 129.425",
@@ -45645,7 +45645,7 @@
         {
           "text": "AIRBORNE FREQ 126.425",
           "ordinal": 1,
-          "enabled": true
+          "enabled": false
         },
         {
           "text": "AIRBORNE FREQ 127.100",
@@ -45675,7 +45675,7 @@
         {
           "text": "WHEN TRAFFIC VACATE RWY 06L CTC 121.750",
           "ordinal": 7,
-          "enabled": true
+          "enabled": false
         },
         {
           "text": "WHEN TRAFFIC VACATE RWY 06L CTC 121.580",
