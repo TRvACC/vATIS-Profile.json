@@ -2,7 +2,7 @@
   "name": "LTXX",
   "id": "0cac1779-e488-4d86-84b6-c95d05dd6cf9",
   "updateUrl": "https://raw.githubusercontent.com/TRvACC/vATIS-Profile.json/refs/heads/main/vATIS%20Profile%20-%20LTXX.json",
-  "updateSerial": 2025051601,
+  "updateSerial": 2025060101,
   "stations": [
     {
       "id": "0246f9d7-62d1-4c22-9ab4-664635164b4d",
@@ -86,6 +86,12 @@
             "text": "VIS {visibility}",
             "voice": ",VISIBILITY, {visibility}."
           }
+        },
+        "runwayVisualRange": {
+          "neutralTendency": "Neutral",
+          "goingUpTendency": "Going Up",
+          "goingDownTendency": "Going Down",
+          "template": {}
         },
         "presentWeather": {
           "presentWeatherTypes": {
@@ -1831,6 +1837,12 @@
         },
         "clouds": {
           "identifyCeilingLayer": false,
+          "identifyCeilingLayerTextAtis": false,
+          "textAtisCeilingPrefix": "CIG",
+          "cloudCeilingLayerTypes": [
+            "BKN",
+            "OVC"
+          ],
           "convertToMetric": false,
           "isAltitudeInHundreds": true,
           "undeterminedLayerAltitude": {
@@ -1911,6 +1923,22 @@
             "voice": ",QNH, {altimeter}."
           }
         },
+        "trend": {
+          "nosigText": "NOSIG",
+          "nosigVoice": "No Significant Changes",
+          "becomingText": "BECMG",
+          "becomingVoice": "Becoming",
+          "temporaryText": "TEMPO",
+          "temporaryVoice": "Temporary",
+          "template": {}
+        },
+        "windShear": {
+          "runwayText": "WS R{Runway}",
+          "runwayVoice": "Wind Shear Runway {Runway}",
+          "allRunwayText": "WS ALL RWY",
+          "allRunwayVoice": "Wind Shear All Runways",
+          "template": {}
+        },
         "transitionLevel": {
           "values": [
             {
@@ -1942,7 +1970,7 @@
         "notams": {
           "template": {
             "text": "NOTAMS... {notams}",
-            "voice": "NOTICES TO AIR MISSIONS: {notams}"
+            "voice": "NOTAMS...: {notams}"
           }
         },
         "closingStatement": {
@@ -1961,7 +1989,7 @@
       "atisVoice": {
         "useTextToSpeech": true,
         "voice": "US Male",
-        "speechRate": 180
+        "speechRate": 140
       },
       "presets": [
         {
@@ -2192,6 +2220,12 @@
             "voice": ",VISIBILITY, {visibility}."
           }
         },
+        "runwayVisualRange": {
+          "neutralTendency": "Neutral",
+          "goingUpTendency": "Going Up",
+          "goingDownTendency": "Going Down",
+          "template": {}
+        },
         "presentWeather": {
           "presentWeatherTypes": {
             "-DS": {
@@ -3936,6 +3970,12 @@
         },
         "clouds": {
           "identifyCeilingLayer": false,
+          "identifyCeilingLayerTextAtis": false,
+          "textAtisCeilingPrefix": "CIG",
+          "cloudCeilingLayerTypes": [
+            "BKN",
+            "OVC"
+          ],
           "convertToMetric": false,
           "isAltitudeInHundreds": true,
           "undeterminedLayerAltitude": {
@@ -4016,6 +4056,22 @@
             "voice": ",QNH, {altimeter}."
           }
         },
+        "trend": {
+          "nosigText": "NOSIG",
+          "nosigVoice": "No Significant Changes",
+          "becomingText": "BECMG",
+          "becomingVoice": "Becoming",
+          "temporaryText": "TEMPO",
+          "temporaryVoice": "Temporary",
+          "template": {}
+        },
+        "windShear": {
+          "runwayText": "WS R{Runway}",
+          "runwayVoice": "Wind Shear Runway {Runway}",
+          "allRunwayText": "WS ALL RWY",
+          "allRunwayVoice": "Wind Shear All Runways",
+          "template": {}
+        },
         "transitionLevel": {
           "values": [
             {
@@ -4047,7 +4103,7 @@
         "notams": {
           "template": {
             "text": "NOTAMS... {notams}",
-            "voice": "NOTICES TO AIR MISSIONS: {notams}"
+            "voice": "NOTAMS...: {notams}"
           }
         },
         "closingStatement": {
@@ -4066,7 +4122,7 @@
       "atisVoice": {
         "useTextToSpeech": true,
         "voice": "US Male",
-        "speechRate": 180
+        "speechRate": 140
       },
       "presets": [
         {
@@ -4204,7 +4260,7 @@
         {
           "text": "DEP FREQ 129.425",
           "ordinal": 6,
-          "enabled": true
+          "enabled": false
         }
       ],
       "notamDefinitions": [
@@ -4328,6 +4384,12 @@
             "voice": ",VISIBILITY, {visibility}."
           }
         },
+        "runwayVisualRange": {
+          "neutralTendency": "Neutral",
+          "goingUpTendency": "Going Up",
+          "goingDownTendency": "Going Down",
+          "template": {}
+        },
         "presentWeather": {
           "presentWeatherTypes": {
             "-DS": {
@@ -6072,6 +6134,12 @@
         },
         "clouds": {
           "identifyCeilingLayer": false,
+          "identifyCeilingLayerTextAtis": false,
+          "textAtisCeilingPrefix": "CIG",
+          "cloudCeilingLayerTypes": [
+            "BKN",
+            "OVC"
+          ],
           "convertToMetric": false,
           "isAltitudeInHundreds": true,
           "undeterminedLayerAltitude": {
@@ -6152,6 +6220,22 @@
             "voice": ",QNH, {altimeter}."
           }
         },
+        "trend": {
+          "nosigText": "NOSIG",
+          "nosigVoice": "No Significant Changes",
+          "becomingText": "BECMG",
+          "becomingVoice": "Becoming",
+          "temporaryText": "TEMPO",
+          "temporaryVoice": "Temporary",
+          "template": {}
+        },
+        "windShear": {
+          "runwayText": "WS R{Runway}",
+          "runwayVoice": "Wind Shear Runway {Runway}",
+          "allRunwayText": "WS ALL RWY",
+          "allRunwayVoice": "Wind Shear All Runways",
+          "template": {}
+        },
         "transitionLevel": {
           "values": [
             {
@@ -6183,7 +6267,7 @@
         "notams": {
           "template": {
             "text": "NOTAMS... {notams}",
-            "voice": "NOTICES TO AIR MISSIONS: {notams}"
+            "voice": "NOTAMS...: {notams}"
           }
         },
         "closingStatement": {
@@ -6202,7 +6286,7 @@
       "atisVoice": {
         "useTextToSpeech": true,
         "voice": "US Male",
-        "speechRate": 180
+        "speechRate": 140
       },
       "presets": [
         {
@@ -6287,7 +6371,7 @@
         {
           "text": "AIRBORNE FREQ 132.150",
           "ordinal": 8,
-          "enabled": false
+          "enabled": true
         },
         {
           "text": "AIRBORNE FREQ 129.425",
@@ -6386,6 +6470,12 @@
             "voice": ",VISIBILITY, {visibility}."
           }
         },
+        "runwayVisualRange": {
+          "neutralTendency": "Neutral",
+          "goingUpTendency": "Going Up",
+          "goingDownTendency": "Going Down",
+          "template": {}
+        },
         "presentWeather": {
           "presentWeatherTypes": {
             "-DS": {
@@ -8130,6 +8220,12 @@
         },
         "clouds": {
           "identifyCeilingLayer": false,
+          "identifyCeilingLayerTextAtis": false,
+          "textAtisCeilingPrefix": "CIG",
+          "cloudCeilingLayerTypes": [
+            "BKN",
+            "OVC"
+          ],
           "convertToMetric": false,
           "isAltitudeInHundreds": true,
           "undeterminedLayerAltitude": {
@@ -8210,6 +8306,22 @@
             "voice": ",QNH, {altimeter}."
           }
         },
+        "trend": {
+          "nosigText": "NOSIG",
+          "nosigVoice": "No Significant Changes",
+          "becomingText": "BECMG",
+          "becomingVoice": "Becoming",
+          "temporaryText": "TEMPO",
+          "temporaryVoice": "Temporary",
+          "template": {}
+        },
+        "windShear": {
+          "runwayText": "WS R{Runway}",
+          "runwayVoice": "Wind Shear Runway {Runway}",
+          "allRunwayText": "WS ALL RWY",
+          "allRunwayVoice": "Wind Shear All Runways",
+          "template": {}
+        },
         "transitionLevel": {
           "values": [
             {
@@ -8241,7 +8353,7 @@
         "notams": {
           "template": {
             "text": "NOTAMS... {notams}",
-            "voice": "NOTICES TO AIR MISSIONS: {notams}"
+            "voice": "NOTAMS...: {notams}"
           }
         },
         "closingStatement": {
@@ -8260,7 +8372,7 @@
       "atisVoice": {
         "useTextToSpeech": true,
         "voice": "US Male",
-        "speechRate": 180
+        "speechRate": 140
       },
       "presets": [
         {
@@ -8394,6 +8506,12 @@
             "voice": ",VISIBILITY, {visibility}."
           }
         },
+        "runwayVisualRange": {
+          "neutralTendency": "Neutral",
+          "goingUpTendency": "Going Up",
+          "goingDownTendency": "Going Down",
+          "template": {}
+        },
         "presentWeather": {
           "presentWeatherTypes": {
             "-DS": {
@@ -10138,6 +10256,12 @@
         },
         "clouds": {
           "identifyCeilingLayer": false,
+          "identifyCeilingLayerTextAtis": false,
+          "textAtisCeilingPrefix": "CIG",
+          "cloudCeilingLayerTypes": [
+            "BKN",
+            "OVC"
+          ],
           "convertToMetric": false,
           "isAltitudeInHundreds": true,
           "undeterminedLayerAltitude": {
@@ -10218,6 +10342,22 @@
             "voice": ",QNH, {altimeter}."
           }
         },
+        "trend": {
+          "nosigText": "NOSIG",
+          "nosigVoice": "No Significant Changes",
+          "becomingText": "BECMG",
+          "becomingVoice": "Becoming",
+          "temporaryText": "TEMPO",
+          "temporaryVoice": "Temporary",
+          "template": {}
+        },
+        "windShear": {
+          "runwayText": "WS R{Runway}",
+          "runwayVoice": "Wind Shear Runway {Runway}",
+          "allRunwayText": "WS ALL RWY",
+          "allRunwayVoice": "Wind Shear All Runways",
+          "template": {}
+        },
         "transitionLevel": {
           "values": [
             {
@@ -10254,7 +10394,7 @@
         "notams": {
           "template": {
             "text": "NOTAMS... {notams}",
-            "voice": "NOTICES TO AIR MISSIONS: {notams}"
+            "voice": "NOTAMS...: {notams}"
           }
         },
         "closingStatement": {
@@ -10273,7 +10413,7 @@
       "atisVoice": {
         "useTextToSpeech": true,
         "voice": "US Male",
-        "speechRate": 180
+        "speechRate": 140
       },
       "presets": [
         {
@@ -10416,6 +10556,12 @@
             "voice": ",VISIBILITY, {visibility}."
           }
         },
+        "runwayVisualRange": {
+          "neutralTendency": "Neutral",
+          "goingUpTendency": "Going Up",
+          "goingDownTendency": "Going Down",
+          "template": {}
+        },
         "presentWeather": {
           "presentWeatherTypes": {
             "-DS": {
@@ -12160,6 +12306,12 @@
         },
         "clouds": {
           "identifyCeilingLayer": false,
+          "identifyCeilingLayerTextAtis": false,
+          "textAtisCeilingPrefix": "CIG",
+          "cloudCeilingLayerTypes": [
+            "BKN",
+            "OVC"
+          ],
           "convertToMetric": false,
           "isAltitudeInHundreds": true,
           "undeterminedLayerAltitude": {
@@ -12240,6 +12392,22 @@
             "voice": ",QNH, {altimeter}."
           }
         },
+        "trend": {
+          "nosigText": "NOSIG",
+          "nosigVoice": "No Significant Changes",
+          "becomingText": "BECMG",
+          "becomingVoice": "Becoming",
+          "temporaryText": "TEMPO",
+          "temporaryVoice": "Temporary",
+          "template": {}
+        },
+        "windShear": {
+          "runwayText": "WS R{Runway}",
+          "runwayVoice": "Wind Shear Runway {Runway}",
+          "allRunwayText": "WS ALL RWY",
+          "allRunwayVoice": "Wind Shear All Runways",
+          "template": {}
+        },
         "transitionLevel": {
           "values": [
             {
@@ -12271,7 +12439,7 @@
         "notams": {
           "template": {
             "text": "NOTAMS... {notams}",
-            "voice": "NOTICES TO AIR MISSIONS: {notams}"
+            "voice": "NOTAMS...: {notams}"
           }
         },
         "closingStatement": {
@@ -12290,7 +12458,7 @@
       "atisVoice": {
         "useTextToSpeech": true,
         "voice": "US Male",
-        "speechRate": 180
+        "speechRate": 140
       },
       "presets": [
         {
@@ -12425,6 +12593,12 @@
             "voice": ",VISIBILITY, {visibility}."
           }
         },
+        "runwayVisualRange": {
+          "neutralTendency": "Neutral",
+          "goingUpTendency": "Going Up",
+          "goingDownTendency": "Going Down",
+          "template": {}
+        },
         "presentWeather": {
           "presentWeatherTypes": {
             "-DS": {
@@ -14169,6 +14343,12 @@
         },
         "clouds": {
           "identifyCeilingLayer": false,
+          "identifyCeilingLayerTextAtis": false,
+          "textAtisCeilingPrefix": "CIG",
+          "cloudCeilingLayerTypes": [
+            "BKN",
+            "OVC"
+          ],
           "convertToMetric": false,
           "isAltitudeInHundreds": true,
           "undeterminedLayerAltitude": {
@@ -14249,6 +14429,22 @@
             "voice": ",QNH, {altimeter}."
           }
         },
+        "trend": {
+          "nosigText": "NOSIG",
+          "nosigVoice": "No Significant Changes",
+          "becomingText": "BECMG",
+          "becomingVoice": "Becoming",
+          "temporaryText": "TEMPO",
+          "temporaryVoice": "Temporary",
+          "template": {}
+        },
+        "windShear": {
+          "runwayText": "WS R{Runway}",
+          "runwayVoice": "Wind Shear Runway {Runway}",
+          "allRunwayText": "WS ALL RWY",
+          "allRunwayVoice": "Wind Shear All Runways",
+          "template": {}
+        },
         "transitionLevel": {
           "values": [
             {
@@ -14280,7 +14476,7 @@
         "notams": {
           "template": {
             "text": "NOTAMS... {notams}",
-            "voice": "NOTICES TO AIR MISSIONS: {notams}"
+            "voice": "NOTAMS...: {notams}"
           }
         },
         "closingStatement": {
@@ -14299,7 +14495,7 @@
       "atisVoice": {
         "useTextToSpeech": true,
         "voice": "US Male",
-        "speechRate": 180
+        "speechRate": 140
       },
       "presets": [
         {
@@ -14432,6 +14628,12 @@
             "voice": ",VISIBILITY, {visibility}."
           }
         },
+        "runwayVisualRange": {
+          "neutralTendency": "Neutral",
+          "goingUpTendency": "Going Up",
+          "goingDownTendency": "Going Down",
+          "template": {}
+        },
         "presentWeather": {
           "presentWeatherTypes": {
             "-DS": {
@@ -16176,6 +16378,12 @@
         },
         "clouds": {
           "identifyCeilingLayer": false,
+          "identifyCeilingLayerTextAtis": false,
+          "textAtisCeilingPrefix": "CIG",
+          "cloudCeilingLayerTypes": [
+            "BKN",
+            "OVC"
+          ],
           "convertToMetric": false,
           "isAltitudeInHundreds": true,
           "undeterminedLayerAltitude": {
@@ -16256,6 +16464,22 @@
             "voice": ",QNH, {altimeter}."
           }
         },
+        "trend": {
+          "nosigText": "NOSIG",
+          "nosigVoice": "No Significant Changes",
+          "becomingText": "BECMG",
+          "becomingVoice": "Becoming",
+          "temporaryText": "TEMPO",
+          "temporaryVoice": "Temporary",
+          "template": {}
+        },
+        "windShear": {
+          "runwayText": "WS R{Runway}",
+          "runwayVoice": "Wind Shear Runway {Runway}",
+          "allRunwayText": "WS ALL RWY",
+          "allRunwayVoice": "Wind Shear All Runways",
+          "template": {}
+        },
         "transitionLevel": {
           "values": [
             {
@@ -16287,7 +16511,7 @@
         "notams": {
           "template": {
             "text": "NOTAMS... {notams}",
-            "voice": "NOTICES TO AIR MISSIONS: {notams}"
+            "voice": "NOTAMS...: {notams}"
           }
         },
         "closingStatement": {
@@ -16306,7 +16530,7 @@
       "atisVoice": {
         "useTextToSpeech": true,
         "voice": "US Male",
-        "speechRate": 180
+        "speechRate": 140
       },
       "presets": [
         {
@@ -16436,6 +16660,12 @@
             "voice": ",VISIBILITY, {visibility}."
           }
         },
+        "runwayVisualRange": {
+          "neutralTendency": "Neutral",
+          "goingUpTendency": "Going Up",
+          "goingDownTendency": "Going Down",
+          "template": {}
+        },
         "presentWeather": {
           "presentWeatherTypes": {
             "-DS": {
@@ -18180,6 +18410,12 @@
         },
         "clouds": {
           "identifyCeilingLayer": false,
+          "identifyCeilingLayerTextAtis": false,
+          "textAtisCeilingPrefix": "CIG",
+          "cloudCeilingLayerTypes": [
+            "BKN",
+            "OVC"
+          ],
           "convertToMetric": false,
           "isAltitudeInHundreds": true,
           "undeterminedLayerAltitude": {
@@ -18260,6 +18496,22 @@
             "voice": ",QNH, {altimeter}."
           }
         },
+        "trend": {
+          "nosigText": "NOSIG",
+          "nosigVoice": "No Significant Changes",
+          "becomingText": "BECMG",
+          "becomingVoice": "Becoming",
+          "temporaryText": "TEMPO",
+          "temporaryVoice": "Temporary",
+          "template": {}
+        },
+        "windShear": {
+          "runwayText": "WS R{Runway}",
+          "runwayVoice": "Wind Shear Runway {Runway}",
+          "allRunwayText": "WS ALL RWY",
+          "allRunwayVoice": "Wind Shear All Runways",
+          "template": {}
+        },
         "transitionLevel": {
           "values": [
             {
@@ -18291,7 +18543,7 @@
         "notams": {
           "template": {
             "text": "NOTAMS... {notams}",
-            "voice": "NOTICES TO AIR MISSIONS: {notams}"
+            "voice": "NOTAMS...: {notams}"
           }
         },
         "closingStatement": {
@@ -18310,7 +18562,7 @@
       "atisVoice": {
         "useTextToSpeech": true,
         "voice": "US Male",
-        "speechRate": 180
+        "speechRate": 140
       },
       "presets": [
         {
@@ -18328,9 +18580,15 @@
           "id": "65119481-d82c-45d7-b49f-63cf82d39956",
           "ordinal": 1,
           "name": "34R",
-          "template": "[FACILITY] ATIS INFORMATION [ATIS_CODE] [OBS_TIME] RWY 34R @EXP ILS @Z APCH RWY 34R [TL] [WIND] [VIS] [CLOUDS] [PRESENT_WX] [TEMP] [DEW] [PRESSURE] [TREND] [RVR] [RECENT_WX] [NOTAMS] [CLOSING]",
+          "template": "[FACILITY] ATIS INFORMATION [ATIS_CODE] [OBS_TIME] RWY 34R EXP ILS Z APCH RWY 34R [TL] [WIND] [VIS] [CLOUDS] [PRESENT_WX] [TEMP] [DEW] [PRESSURE] [TREND] [RVR] [RECENT_WX] [NOTAMS] [CLOSING]",
           "externalGenerator": {
-            "enabled": false
+            "enabled": false,
+            "textUrl": "",
+            "voiceUrl": "",
+            "arrival": "",
+            "departure": "",
+            "approaches": "",
+            "remarks": ""
           }
         }
       ],
@@ -18447,6 +18705,12 @@
             "voice": ",VISIBILITY, {visibility}."
           }
         },
+        "runwayVisualRange": {
+          "neutralTendency": "Neutral",
+          "goingUpTendency": "Going Up",
+          "goingDownTendency": "Going Down",
+          "template": {}
+        },
         "presentWeather": {
           "presentWeatherTypes": {
             "-DS": {
@@ -20191,6 +20455,12 @@
         },
         "clouds": {
           "identifyCeilingLayer": false,
+          "identifyCeilingLayerTextAtis": false,
+          "textAtisCeilingPrefix": "CIG",
+          "cloudCeilingLayerTypes": [
+            "BKN",
+            "OVC"
+          ],
           "convertToMetric": false,
           "isAltitudeInHundreds": true,
           "undeterminedLayerAltitude": {
@@ -20271,6 +20541,22 @@
             "voice": ",QNH, {altimeter}."
           }
         },
+        "trend": {
+          "nosigText": "NOSIG",
+          "nosigVoice": "No Significant Changes",
+          "becomingText": "BECMG",
+          "becomingVoice": "Becoming",
+          "temporaryText": "TEMPO",
+          "temporaryVoice": "Temporary",
+          "template": {}
+        },
+        "windShear": {
+          "runwayText": "WS R{Runway}",
+          "runwayVoice": "Wind Shear Runway {Runway}",
+          "allRunwayText": "WS ALL RWY",
+          "allRunwayVoice": "Wind Shear All Runways",
+          "template": {}
+        },
         "transitionLevel": {
           "values": [
             {
@@ -20302,7 +20588,7 @@
         "notams": {
           "template": {
             "text": "NOTAMS... {notams}",
-            "voice": "NOTICES TO AIR MISSIONS: {notams}"
+            "voice": "NOTAMS...: {notams}"
           }
         },
         "closingStatement": {
@@ -20321,7 +20607,7 @@
       "atisVoice": {
         "useTextToSpeech": true,
         "voice": "US Male",
-        "speechRate": 180
+        "speechRate": 140
       },
       "presets": [
         {
@@ -20329,7 +20615,7 @@
           "name": "DEP 03L/ ARR 03R",
           "airportConditions": "",
           "notams": "\r\n",
-          "template": "@LTAC ATIS INFORMATION [ATIS_CODE] [OBS_TIME] RWY 03L @EXP ILS @V APCH RWY 03R [TL] [WIND] [VIS] [CLOUDS] [PRESENT_WX] [TEMP] [DEW] [PRESSURE] [TREND] [RVR] [RECENT_WX] [NOTAMS] DEP TFC INTXN @E IS @MANDATORY REPORT IF UNABLE TO EXECUTE INTXN DEPS @RECIEVE DEP CLNC VIA DATALINK ON ACARS [CLOSING]",
+          "template": "@LTAC ATIS INFORMATION [ATIS_CODE] [OBS_TIME] RWY 03L @EXP ILS V APCH RWY 03R [TL] [WIND] [VIS] [CLOUDS] [PRESENT_WX] [TEMP] [DEW] [PRESSURE] [TREND] [RVR] [RECENT_WX] [NOTAMS] DEP TFC INTXN @E IS @MANDATORY REPORT IF UNABLE TO EXECUTE INTXN DEPS @RECIEVE DEP CLNC VIA DATALINK ON ACARS [CLOSING]",
           "externalGenerator": {
             "enabled": false
           }
@@ -20559,6 +20845,12 @@
             "voice": ",VISIBILITY, {visibility}."
           }
         },
+        "runwayVisualRange": {
+          "neutralTendency": "Neutral",
+          "goingUpTendency": "Going Up",
+          "goingDownTendency": "Going Down",
+          "template": {}
+        },
         "presentWeather": {
           "presentWeatherTypes": {
             "-DS": {
@@ -22303,6 +22595,12 @@
         },
         "clouds": {
           "identifyCeilingLayer": false,
+          "identifyCeilingLayerTextAtis": false,
+          "textAtisCeilingPrefix": "CIG",
+          "cloudCeilingLayerTypes": [
+            "BKN",
+            "OVC"
+          ],
           "convertToMetric": false,
           "isAltitudeInHundreds": true,
           "undeterminedLayerAltitude": {
@@ -22383,6 +22681,22 @@
             "voice": ",QNH, {altimeter}."
           }
         },
+        "trend": {
+          "nosigText": "NOSIG",
+          "nosigVoice": "No Significant Changes",
+          "becomingText": "BECMG",
+          "becomingVoice": "Becoming",
+          "temporaryText": "TEMPO",
+          "temporaryVoice": "Temporary",
+          "template": {}
+        },
+        "windShear": {
+          "runwayText": "WS R{Runway}",
+          "runwayVoice": "Wind Shear Runway {Runway}",
+          "allRunwayText": "WS ALL RWY",
+          "allRunwayVoice": "Wind Shear All Runways",
+          "template": {}
+        },
         "transitionLevel": {
           "values": [
             {
@@ -22414,7 +22728,7 @@
         "notams": {
           "template": {
             "text": "NOTAMS... {notams}",
-            "voice": "NOTICES TO AIR MISSIONS: {notams}"
+            "voice": "NOTAMS...: {notams}"
           }
         },
         "closingStatement": {
@@ -22433,7 +22747,7 @@
       "atisVoice": {
         "useTextToSpeech": true,
         "voice": "US Male",
-        "speechRate": 180
+        "speechRate": 140
       },
       "presets": [
         {
@@ -22568,6 +22882,12 @@
             "voice": ",VISIBILITY, {visibility}."
           }
         },
+        "runwayVisualRange": {
+          "neutralTendency": "Neutral",
+          "goingUpTendency": "Going Up",
+          "goingDownTendency": "Going Down",
+          "template": {}
+        },
         "presentWeather": {
           "presentWeatherTypes": {
             "-DS": {
@@ -24312,6 +24632,12 @@
         },
         "clouds": {
           "identifyCeilingLayer": false,
+          "identifyCeilingLayerTextAtis": false,
+          "textAtisCeilingPrefix": "CIG",
+          "cloudCeilingLayerTypes": [
+            "BKN",
+            "OVC"
+          ],
           "convertToMetric": false,
           "isAltitudeInHundreds": true,
           "undeterminedLayerAltitude": {
@@ -24392,6 +24718,22 @@
             "voice": ",QNH, {altimeter}."
           }
         },
+        "trend": {
+          "nosigText": "NOSIG",
+          "nosigVoice": "No Significant Changes",
+          "becomingText": "BECMG",
+          "becomingVoice": "Becoming",
+          "temporaryText": "TEMPO",
+          "temporaryVoice": "Temporary",
+          "template": {}
+        },
+        "windShear": {
+          "runwayText": "WS R{Runway}",
+          "runwayVoice": "Wind Shear Runway {Runway}",
+          "allRunwayText": "WS ALL RWY",
+          "allRunwayVoice": "Wind Shear All Runways",
+          "template": {}
+        },
         "transitionLevel": {
           "values": [
             {
@@ -24423,7 +24765,7 @@
         "notams": {
           "template": {
             "text": "NOTAMS... {notams}",
-            "voice": "NOTICES TO AIR MISSIONS: {notams}"
+            "voice": "NOTAMS...: {notams}"
           }
         },
         "closingStatement": {
@@ -24442,7 +24784,7 @@
       "atisVoice": {
         "useTextToSpeech": true,
         "voice": "US Male",
-        "speechRate": 180
+        "speechRate": 140
       },
       "presets": [
         {
@@ -24549,6 +24891,12 @@
             "voice": ",VISIBILITY, {visibility}."
           }
         },
+        "runwayVisualRange": {
+          "neutralTendency": "Neutral",
+          "goingUpTendency": "Going Up",
+          "goingDownTendency": "Going Down",
+          "template": {}
+        },
         "presentWeather": {
           "presentWeatherTypes": {
             "-DS": {
@@ -26293,6 +26641,12 @@
         },
         "clouds": {
           "identifyCeilingLayer": false,
+          "identifyCeilingLayerTextAtis": false,
+          "textAtisCeilingPrefix": "CIG",
+          "cloudCeilingLayerTypes": [
+            "BKN",
+            "OVC"
+          ],
           "convertToMetric": false,
           "isAltitudeInHundreds": true,
           "undeterminedLayerAltitude": {
@@ -26373,6 +26727,22 @@
             "voice": ",QNH, {altimeter}."
           }
         },
+        "trend": {
+          "nosigText": "NOSIG",
+          "nosigVoice": "No Significant Changes",
+          "becomingText": "BECMG",
+          "becomingVoice": "Becoming",
+          "temporaryText": "TEMPO",
+          "temporaryVoice": "Temporary",
+          "template": {}
+        },
+        "windShear": {
+          "runwayText": "WS R{Runway}",
+          "runwayVoice": "Wind Shear Runway {Runway}",
+          "allRunwayText": "WS ALL RWY",
+          "allRunwayVoice": "Wind Shear All Runways",
+          "template": {}
+        },
         "transitionLevel": {
           "values": [
             {
@@ -26404,7 +26774,7 @@
         "notams": {
           "template": {
             "text": "NOTAMS... {notams}",
-            "voice": "NOTICES TO AIR MISSIONS: {notams}"
+            "voice": "NOTAMS...: {notams}"
           }
         },
         "closingStatement": {
@@ -26423,7 +26793,7 @@
       "atisVoice": {
         "useTextToSpeech": true,
         "voice": "US Male",
-        "speechRate": 180
+        "speechRate": 140
       },
       "presets": [
         {
@@ -26564,6 +26934,12 @@
             "voice": ",VISIBILITY, {visibility}."
           }
         },
+        "runwayVisualRange": {
+          "neutralTendency": "Neutral",
+          "goingUpTendency": "Going Up",
+          "goingDownTendency": "Going Down",
+          "template": {}
+        },
         "presentWeather": {
           "presentWeatherTypes": {
             "-DS": {
@@ -28308,6 +28684,12 @@
         },
         "clouds": {
           "identifyCeilingLayer": false,
+          "identifyCeilingLayerTextAtis": false,
+          "textAtisCeilingPrefix": "CIG",
+          "cloudCeilingLayerTypes": [
+            "BKN",
+            "OVC"
+          ],
           "convertToMetric": false,
           "isAltitudeInHundreds": true,
           "undeterminedLayerAltitude": {
@@ -28388,6 +28770,22 @@
             "voice": ",QNH, {altimeter}."
           }
         },
+        "trend": {
+          "nosigText": "NOSIG",
+          "nosigVoice": "No Significant Changes",
+          "becomingText": "BECMG",
+          "becomingVoice": "Becoming",
+          "temporaryText": "TEMPO",
+          "temporaryVoice": "Temporary",
+          "template": {}
+        },
+        "windShear": {
+          "runwayText": "WS R{Runway}",
+          "runwayVoice": "Wind Shear Runway {Runway}",
+          "allRunwayText": "WS ALL RWY",
+          "allRunwayVoice": "Wind Shear All Runways",
+          "template": {}
+        },
         "transitionLevel": {
           "values": [
             {
@@ -28419,7 +28817,7 @@
         "notams": {
           "template": {
             "text": "NOTAMS... {notams}",
-            "voice": "NOTICES TO AIR MISSIONS: {notams}"
+            "voice": "NOTAMS...: {notams}"
           }
         },
         "closingStatement": {
@@ -28438,7 +28836,7 @@
       "atisVoice": {
         "useTextToSpeech": true,
         "voice": "US Male",
-        "speechRate": 180
+        "speechRate": 140
       },
       "presets": [
         {
@@ -28573,6 +28971,12 @@
             "voice": ",VISIBILITY, {visibility}."
           }
         },
+        "runwayVisualRange": {
+          "neutralTendency": "Neutral",
+          "goingUpTendency": "Going Up",
+          "goingDownTendency": "Going Down",
+          "template": {}
+        },
         "presentWeather": {
           "presentWeatherTypes": {
             "-DS": {
@@ -30317,6 +30721,12 @@
         },
         "clouds": {
           "identifyCeilingLayer": false,
+          "identifyCeilingLayerTextAtis": false,
+          "textAtisCeilingPrefix": "CIG",
+          "cloudCeilingLayerTypes": [
+            "BKN",
+            "OVC"
+          ],
           "convertToMetric": false,
           "isAltitudeInHundreds": true,
           "undeterminedLayerAltitude": {
@@ -30397,6 +30807,22 @@
             "voice": ",QNH, {altimeter}."
           }
         },
+        "trend": {
+          "nosigText": "NOSIG",
+          "nosigVoice": "No Significant Changes",
+          "becomingText": "BECMG",
+          "becomingVoice": "Becoming",
+          "temporaryText": "TEMPO",
+          "temporaryVoice": "Temporary",
+          "template": {}
+        },
+        "windShear": {
+          "runwayText": "WS R{Runway}",
+          "runwayVoice": "Wind Shear Runway {Runway}",
+          "allRunwayText": "WS ALL RWY",
+          "allRunwayVoice": "Wind Shear All Runways",
+          "template": {}
+        },
         "transitionLevel": {
           "values": [
             {
@@ -30428,7 +30854,7 @@
         "notams": {
           "template": {
             "text": "NOTAMS... {notams}",
-            "voice": "NOTICES TO AIR MISSIONS: {notams}"
+            "voice": "NOTAMS...: {notams}"
           }
         },
         "closingStatement": {
@@ -30447,7 +30873,7 @@
       "atisVoice": {
         "useTextToSpeech": true,
         "voice": "US Male",
-        "speechRate": 180
+        "speechRate": 140
       },
       "presets": [
         {
@@ -30542,7 +30968,7 @@
           "id": "554531f6-34af-4867-abd9-bb13d0fabded",
           "ordinal": 10,
           "name": "35L - 36",
-          "airportConditions": "",
+          "airportConditions": "AIRBORNE FREQ 132.150.",
           "notams": "",
           "template": "[FACILITY] DEP ATIS INFORMATION [ATIS_CODE] [OBS_TIME] DEP RWYS 35L AND 36 @INDEPENDENT PARALEL DEPS IN @PROGRESS CAUT BIRD @ACTIVITY [ARPT_COND] CAUT DEPTG TFC RWY 18 AND 36 HS OF CAT 2 AND CAT 3 HOLDING [TL] [WIND] [VIS] [CLOUDS] [PRESENT_WX] [TEMP] [DEW] [PRESSURE] [TREND] [RVR] [RECENT_WX] [NOTAMS] @RECIEVE DEP CLNC VIA DATALINK ON @ACARS [CLOSING]",
           "externalGenerator": {
@@ -30636,12 +31062,12 @@
         {
           "text": "AIRBORNE FREQ 132.150",
           "ordinal": 8,
-          "enabled": false
+          "enabled": true
         },
         {
           "text": "AIRBORNE FREQ 129.425",
           "ordinal": 9,
-          "enabled": true
+          "enabled": false
         }
       ],
       "notamDefinitions": [
@@ -30734,6 +31160,12 @@
             "text": "VIS {visibility}",
             "voice": ",VISIBILITY, {visibility}."
           }
+        },
+        "runwayVisualRange": {
+          "neutralTendency": "Neutral",
+          "goingUpTendency": "Going Up",
+          "goingDownTendency": "Going Down",
+          "template": {}
         },
         "presentWeather": {
           "presentWeatherTypes": {
@@ -32479,6 +32911,12 @@
         },
         "clouds": {
           "identifyCeilingLayer": false,
+          "identifyCeilingLayerTextAtis": false,
+          "textAtisCeilingPrefix": "CIG",
+          "cloudCeilingLayerTypes": [
+            "BKN",
+            "OVC"
+          ],
           "convertToMetric": false,
           "isAltitudeInHundreds": true,
           "undeterminedLayerAltitude": {
@@ -32559,6 +32997,22 @@
             "voice": ",QNH, {altimeter}."
           }
         },
+        "trend": {
+          "nosigText": "NOSIG",
+          "nosigVoice": "No Significant Changes",
+          "becomingText": "BECMG",
+          "becomingVoice": "Becoming",
+          "temporaryText": "TEMPO",
+          "temporaryVoice": "Temporary",
+          "template": {}
+        },
+        "windShear": {
+          "runwayText": "WS R{Runway}",
+          "runwayVoice": "Wind Shear Runway {Runway}",
+          "allRunwayText": "WS ALL RWY",
+          "allRunwayVoice": "Wind Shear All Runways",
+          "template": {}
+        },
         "transitionLevel": {
           "values": [
             {
@@ -32590,7 +33044,7 @@
         "notams": {
           "template": {
             "text": "NOTAMS... {notams}",
-            "voice": "NOTICES TO AIR MISSIONS: {notams}"
+            "voice": "NOTAMS...: {notams}"
           }
         },
         "closingStatement": {
@@ -32609,13 +33063,15 @@
       "atisVoice": {
         "useTextToSpeech": true,
         "voice": "US Male",
-        "speechRate": 180
+        "speechRate": 140
       },
       "presets": [
         {
           "id": "e6818ad4-1082-4a3f-adb7-868947e7435f",
           "ordinal": 0,
           "name": "NORTH TRIPLE PARALLEL",
+          "airportConditions": "AFTER VACATING RWY CTC 126.3.",
+          "notams": "",
           "template": "[FACILITY] ARR ATIS INFORMATION [ATIS_CODE] [OBS_TIME] @EXP ILS @Y 34L @EXP ILS @Y APCH 35R @EXP ILS @Y APCH 36 [TL] SIMULTANEOUS INDEPENDENT TRIPLE PARALLEL ILS APCHS IN PROGRESS ON RWYS 34L, 35R AND 36 [TL] [WIND] [VIS] [CLOUDS] [PRESENT_WX] [TEMP] [DEW] [PRESSURE] [TREND] [RVR] [RECENT_WX] [NOTAMS] [ARPT_COND] [CLOSING]",
           "externalGenerator": {
             "enabled": false
@@ -32720,7 +33176,7 @@
           "name": "35R - 36",
           "airportConditions": "",
           "notams": "",
-          "template": "[FACILITY] ARR ATIS INFORMATION [ATIS_CODE] [OBS_TIME] @EXP ILS X APCH 35R EXP ILS @Y APCH 36 [TL] SIMULTANEOUS INDEPENDENT PARALLEL ILS APCHS IN PROGRESS ON RWYS 35R AND 36 [TL] [WIND] [VIS] [CLOUDS] [PRESENT_WX] [TEMP] [DEW] [PRESSURE] [TREND] [RVR] [RECENT_WX] [NOTAMS] [ARPT_COND] [CLOSING]",
+          "template": "[FACILITY] ARR ATIS INFORMATION [ATIS_CODE] [OBS_TIME] @EXP ILS Y APCH 35R @EXP ILS Y APCH 36 [TL] SIMULTANEOUS INDEPENDENT PARALLEL ILS APCHS IN PROGRESS ON RWYS 35R AND 36 [TL] [WIND] [VIS] [CLOUDS] [PRESENT_WX] [TEMP] [DEW] [PRESSURE] [TREND] [RVR] [RECENT_WX] [NOTAMS] [ARPT_COND] [CLOSING]",
           "externalGenerator": {
             "enabled": false
           }
@@ -32729,7 +33185,7 @@
           "id": "0421a6cc-7a0d-468e-9635-da4b83934c68",
           "ordinal": 13,
           "name": "34L - 35R",
-          "template": "[FACILITY] ARR ATIS INFORMATION [ATIS_CODE] [OBS_TIME] @EXP ILS Y APCH 34L EXP ILS @Y APCH 35R [TL] SIMULTANEOUS INDEPENDENT PARALLEL ILS APCHS IN PROGRESS ON RWYS 34L AND 35R [TL] [WIND] [VIS] [CLOUDS] [PRESENT_WX] [TEMP] [DEW] [PRESSURE] [TREND] [RVR] [RECENT_WX] [NOTAMS] [ARPT_COND] [CLOSING]",
+          "template": "[FACILITY] ARR ATIS INFORMATION [ATIS_CODE] [OBS_TIME] @EXP ILS Y APCH 34L @EXP ILS @Y APCH 35R [TL] SIMULTANEOUS INDEPENDENT PARALLEL ILS APCHS IN PROGRESS ON RWYS 34L AND 35R [TL] [WIND] [VIS] [CLOUDS] [PRESENT_WX] [TEMP] [DEW] [PRESSURE] [TREND] [RVR] [RECENT_WX] [NOTAMS] [ARPT_COND] [CLOSING]",
           "externalGenerator": {
             "enabled": false
           }
@@ -32739,7 +33195,7 @@
           "ordinal": 14,
           "name": "34L - 36",
           "notams": "",
-          "template": "[FACILITY] ARR ATIS INFORMATION [ATIS_CODE] [OBS_TIME] @EXP ILS Y APCH 34L EXP ILS @Y APCH 36 [TL] SIMULTANEOUS INDEPENDENT PARALLEL ILS APCHS IN PROGRESS ON RWYS 34L AND 36 [TL] [WIND] [VIS] [CLOUDS] [PRESENT_WX] [TEMP] [DEW] [PRESSURE] [TREND] [RVR] [RECENT_WX] [NOTAMS] [ARPT_COND] [CLOSING]",
+          "template": "[FACILITY] ARR ATIS INFORMATION [ATIS_CODE] [OBS_TIME] @EXP ILS Y APCH 34L @EXP ILS @Y APCH 36 [TL] SIMULTANEOUS INDEPENDENT PARALLEL ILS APCHS IN PROGRESS ON RWYS 34L AND 36 [TL] [WIND] [VIS] [CLOUDS] [PRESENT_WX] [TEMP] [DEW] [PRESSURE] [TREND] [RVR] [RECENT_WX] [NOTAMS] [ARPT_COND] [CLOSING]",
           "externalGenerator": {
             "enabled": false
           }
@@ -32922,6 +33378,12 @@
             "voice": ",VISIBILITY, {visibility}."
           }
         },
+        "runwayVisualRange": {
+          "neutralTendency": "Neutral",
+          "goingUpTendency": "Going Up",
+          "goingDownTendency": "Going Down",
+          "template": {}
+        },
         "presentWeather": {
           "presentWeatherTypes": {
             "-DS": {
@@ -34666,6 +35128,12 @@
         },
         "clouds": {
           "identifyCeilingLayer": false,
+          "identifyCeilingLayerTextAtis": false,
+          "textAtisCeilingPrefix": "CIG",
+          "cloudCeilingLayerTypes": [
+            "BKN",
+            "OVC"
+          ],
           "convertToMetric": false,
           "isAltitudeInHundreds": true,
           "undeterminedLayerAltitude": {
@@ -34746,6 +35214,22 @@
             "voice": ",QNH, {altimeter}."
           }
         },
+        "trend": {
+          "nosigText": "NOSIG",
+          "nosigVoice": "No Significant Changes",
+          "becomingText": "BECMG",
+          "becomingVoice": "Becoming",
+          "temporaryText": "TEMPO",
+          "temporaryVoice": "Temporary",
+          "template": {}
+        },
+        "windShear": {
+          "runwayText": "WS R{Runway}",
+          "runwayVoice": "Wind Shear Runway {Runway}",
+          "allRunwayText": "WS ALL RWY",
+          "allRunwayVoice": "Wind Shear All Runways",
+          "template": {}
+        },
         "transitionLevel": {
           "values": [
             {
@@ -34777,7 +35261,7 @@
         "notams": {
           "template": {
             "text": "NOTAMS... {notams}",
-            "voice": "NOTICES TO AIR MISSIONS: {notams}"
+            "voice": "NOTAMS...: {notams}"
           }
         },
         "closingStatement": {
@@ -34796,7 +35280,7 @@
       "atisVoice": {
         "useTextToSpeech": true,
         "voice": "US Male",
-        "speechRate": 180
+        "speechRate": 140
       },
       "presets": [
         {
@@ -34933,6 +35417,12 @@
             "voice": ",VISIBILITY, {visibility}."
           }
         },
+        "runwayVisualRange": {
+          "neutralTendency": "Neutral",
+          "goingUpTendency": "Going Up",
+          "goingDownTendency": "Going Down",
+          "template": {}
+        },
         "presentWeather": {
           "presentWeatherTypes": {
             "-DS": {
@@ -36677,6 +37167,12 @@
         },
         "clouds": {
           "identifyCeilingLayer": false,
+          "identifyCeilingLayerTextAtis": false,
+          "textAtisCeilingPrefix": "CIG",
+          "cloudCeilingLayerTypes": [
+            "BKN",
+            "OVC"
+          ],
           "convertToMetric": false,
           "isAltitudeInHundreds": true,
           "undeterminedLayerAltitude": {
@@ -36757,6 +37253,22 @@
             "voice": ",QNH, {altimeter}."
           }
         },
+        "trend": {
+          "nosigText": "NOSIG",
+          "nosigVoice": "No Significant Changes",
+          "becomingText": "BECMG",
+          "becomingVoice": "Becoming",
+          "temporaryText": "TEMPO",
+          "temporaryVoice": "Temporary",
+          "template": {}
+        },
+        "windShear": {
+          "runwayText": "WS R{Runway}",
+          "runwayVoice": "Wind Shear Runway {Runway}",
+          "allRunwayText": "WS ALL RWY",
+          "allRunwayVoice": "Wind Shear All Runways",
+          "template": {}
+        },
         "transitionLevel": {
           "values": [
             {
@@ -36788,7 +37300,7 @@
         "notams": {
           "template": {
             "text": "NOTAMS... {notams}",
-            "voice": "NOTICES TO AIR MISSIONS: {notams}"
+            "voice": "NOTAMS...: {notams}"
           }
         },
         "closingStatement": {
@@ -36807,7 +37319,7 @@
       "atisVoice": {
         "useTextToSpeech": true,
         "voice": "US Male",
-        "speechRate": 180
+        "speechRate": 140
       },
       "presets": [
         {
@@ -36829,7 +37341,13 @@
           "notams": "",
           "template": "@LTBJ ATIS INFORMATION [ATIS_CODE] [OBS_TIME] RWY 34R @EXP ILS U APCH RWY 34R [TL] [WIND] [VIS] [CLOUDS] [PRESENT_WX] [TEMP] [DEW] [PRESSURE] [TREND] [RVR] [RECENT_WX] [NOTAMS] DEP TFC INTXN @J IS @MANDA REPORT IF UNABLE TO EXECUTE INTXN DEPS [CLOSING]",
           "externalGenerator": {
-            "enabled": false
+            "enabled": false,
+            "textUrl": "",
+            "voiceUrl": "",
+            "arrival": "",
+            "departure": "",
+            "approaches": "",
+            "remarks": ""
           }
         }
       ],
@@ -36982,6 +37500,12 @@
             "voice": ",VISIBILITY, {visibility}."
           }
         },
+        "runwayVisualRange": {
+          "neutralTendency": "Neutral",
+          "goingUpTendency": "Going Up",
+          "goingDownTendency": "Going Down",
+          "template": {}
+        },
         "presentWeather": {
           "presentWeatherTypes": {
             "-DS": {
@@ -38726,6 +39250,12 @@
         },
         "clouds": {
           "identifyCeilingLayer": false,
+          "identifyCeilingLayerTextAtis": false,
+          "textAtisCeilingPrefix": "CIG",
+          "cloudCeilingLayerTypes": [
+            "BKN",
+            "OVC"
+          ],
           "convertToMetric": false,
           "isAltitudeInHundreds": true,
           "undeterminedLayerAltitude": {
@@ -38806,6 +39336,22 @@
             "voice": ",QNH, {altimeter}."
           }
         },
+        "trend": {
+          "nosigText": "NOSIG",
+          "nosigVoice": "No Significant Changes",
+          "becomingText": "BECMG",
+          "becomingVoice": "Becoming",
+          "temporaryText": "TEMPO",
+          "temporaryVoice": "Temporary",
+          "template": {}
+        },
+        "windShear": {
+          "runwayText": "WS R{Runway}",
+          "runwayVoice": "Wind Shear Runway {Runway}",
+          "allRunwayText": "WS ALL RWY",
+          "allRunwayVoice": "Wind Shear All Runways",
+          "template": {}
+        },
         "transitionLevel": {
           "values": [
             {
@@ -38837,7 +39383,7 @@
         "notams": {
           "template": {
             "text": "NOTAMS... {notams}",
-            "voice": "NOTICES TO AIR MISSIONS: {notams}"
+            "voice": "NOTAMS...: {notams}"
           }
         },
         "closingStatement": {
@@ -38856,7 +39402,7 @@
       "atisVoice": {
         "useTextToSpeech": true,
         "voice": "US Male",
-        "speechRate": 180
+        "speechRate": 140
       },
       "presets": [
         {
@@ -38984,6 +39530,12 @@
             "voice": ",VISIBILITY, {visibility}."
           }
         },
+        "runwayVisualRange": {
+          "neutralTendency": "Neutral",
+          "goingUpTendency": "Going Up",
+          "goingDownTendency": "Going Down",
+          "template": {}
+        },
         "presentWeather": {
           "presentWeatherTypes": {
             "-DS": {
@@ -40728,6 +41280,12 @@
         },
         "clouds": {
           "identifyCeilingLayer": false,
+          "identifyCeilingLayerTextAtis": false,
+          "textAtisCeilingPrefix": "CIG",
+          "cloudCeilingLayerTypes": [
+            "BKN",
+            "OVC"
+          ],
           "convertToMetric": false,
           "isAltitudeInHundreds": true,
           "undeterminedLayerAltitude": {
@@ -40808,6 +41366,22 @@
             "voice": ",QNH, {altimeter}."
           }
         },
+        "trend": {
+          "nosigText": "NOSIG",
+          "nosigVoice": "No Significant Changes",
+          "becomingText": "BECMG",
+          "becomingVoice": "Becoming",
+          "temporaryText": "TEMPO",
+          "temporaryVoice": "Temporary",
+          "template": {}
+        },
+        "windShear": {
+          "runwayText": "WS R{Runway}",
+          "runwayVoice": "Wind Shear Runway {Runway}",
+          "allRunwayText": "WS ALL RWY",
+          "allRunwayVoice": "Wind Shear All Runways",
+          "template": {}
+        },
         "transitionLevel": {
           "values": [
             {
@@ -40839,7 +41413,7 @@
         "notams": {
           "template": {
             "text": "NOTAMS... {notams}",
-            "voice": "NOTICES TO AIR MISSIONS: {notams}"
+            "voice": "NOTAMS...: {notams}"
           }
         },
         "closingStatement": {
@@ -40858,7 +41432,7 @@
       "atisVoice": {
         "useTextToSpeech": true,
         "voice": "US Male",
-        "speechRate": 180
+        "speechRate": 140
       },
       "presets": [
         {
@@ -40995,6 +41569,12 @@
             "voice": ",VISIBILITY, {visibility}."
           }
         },
+        "runwayVisualRange": {
+          "neutralTendency": "Neutral",
+          "goingUpTendency": "Going Up",
+          "goingDownTendency": "Going Down",
+          "template": {}
+        },
         "presentWeather": {
           "presentWeatherTypes": {
             "-DS": {
@@ -42739,6 +43319,12 @@
         },
         "clouds": {
           "identifyCeilingLayer": false,
+          "identifyCeilingLayerTextAtis": false,
+          "textAtisCeilingPrefix": "CIG",
+          "cloudCeilingLayerTypes": [
+            "BKN",
+            "OVC"
+          ],
           "convertToMetric": false,
           "isAltitudeInHundreds": true,
           "undeterminedLayerAltitude": {
@@ -42819,6 +43405,22 @@
             "voice": ",QNH, {altimeter}."
           }
         },
+        "trend": {
+          "nosigText": "NOSIG",
+          "nosigVoice": "No Significant Changes",
+          "becomingText": "BECMG",
+          "becomingVoice": "Becoming",
+          "temporaryText": "TEMPO",
+          "temporaryVoice": "Temporary",
+          "template": {}
+        },
+        "windShear": {
+          "runwayText": "WS R{Runway}",
+          "runwayVoice": "Wind Shear Runway {Runway}",
+          "allRunwayText": "WS ALL RWY",
+          "allRunwayVoice": "Wind Shear All Runways",
+          "template": {}
+        },
         "transitionLevel": {
           "values": [
             {
@@ -42850,7 +43452,7 @@
         "notams": {
           "template": {
             "text": "NOTAMS... {notams}",
-            "voice": "NOTICES TO AIR MISSIONS: {notams}"
+            "voice": "NOTAMS...: {notams}"
           }
         },
         "closingStatement": {
@@ -42869,7 +43471,7 @@
       "atisVoice": {
         "useTextToSpeech": true,
         "voice": "US Male",
-        "speechRate": 180
+        "speechRate": 140
       },
       "presets": [
         {
@@ -43004,6 +43606,12 @@
             "voice": ",VISIBILITY, {visibility}."
           }
         },
+        "runwayVisualRange": {
+          "neutralTendency": "Neutral",
+          "goingUpTendency": "Going Up",
+          "goingDownTendency": "Going Down",
+          "template": {}
+        },
         "presentWeather": {
           "presentWeatherTypes": {
             "-DS": {
@@ -44748,6 +45356,12 @@
         },
         "clouds": {
           "identifyCeilingLayer": false,
+          "identifyCeilingLayerTextAtis": false,
+          "textAtisCeilingPrefix": "CIG",
+          "cloudCeilingLayerTypes": [
+            "BKN",
+            "OVC"
+          ],
           "convertToMetric": false,
           "isAltitudeInHundreds": true,
           "undeterminedLayerAltitude": {
@@ -44797,12 +45411,12 @@
             }
           },
           "convectiveTypes": {
-            "CB": "cumulonimbus,",
+            "CB": ",cumulonimbus,",
             "TCU": ",towering cumulus,"
           },
           "template": {
             "text": "{clouds}",
-            "voice": ",{clouds},"
+            "voice": ",{clouds}"
           }
         },
         "temperature": {
@@ -44827,6 +45441,22 @@
             "text": "QNH {altimeter}",
             "voice": ",QNH, {altimeter}."
           }
+        },
+        "trend": {
+          "nosigText": "NOSIG",
+          "nosigVoice": "No Significant Changes",
+          "becomingText": "BECMG",
+          "becomingVoice": "Becoming",
+          "temporaryText": "TEMPO",
+          "temporaryVoice": "Temporary",
+          "template": {}
+        },
+        "windShear": {
+          "runwayText": "WS R{Runway}",
+          "runwayVoice": "Wind Shear Runway {Runway}",
+          "allRunwayText": "WS ALL RWY",
+          "allRunwayVoice": "Wind Shear All Runways",
+          "template": {}
         },
         "transitionLevel": {
           "values": [
@@ -44859,7 +45489,7 @@
         "notams": {
           "template": {
             "text": "NOTAMS... {notams}",
-            "voice": "NOTICES TO AIR MISSIONS: {notams}"
+            "voice": ". NOTAMS: {notams}"
           }
         },
         "closingStatement": {
@@ -44878,7 +45508,7 @@
       "atisVoice": {
         "useTextToSpeech": true,
         "voice": "US Male",
-        "speechRate": 180
+        "speechRate": 140
       },
       "presets": [
         {
@@ -44886,9 +45516,15 @@
           "name": "DEP 06L - ARR 06R",
           "airportConditions": "",
           "notams": "",
-          "template": "@LTFJ ARR AND DEP ATIS INFORMATION [ATIS_CODE] [OBS_TIME] DEP RWY 06L EXP ILS @Z APCH RWY 06R [TL] [WIND] [VIS] [CLOUDS] [PRESENT_WX] [TEMP] [DEW] [PRESSURE] [TREND] [RVR] [RECENT_WX] @CAUTION BIRD HAZARD OVER AND AROUND THE @FIELD [ARPT_COND] [NOTAMS] @RECIEVE DEP CLNC VIA DATALINK ON @ACARS [CLOSING]",
+          "template": "@LTFJ ARR AND DEP ATIS INFORMATION [ATIS_CODE] [OBS_TIME] DEP RWY 06L @EXP ILS @Z APCH RWY 06R [TL] [WIND] [VIS] [CLOUDS] [PRESENT_WX] [TEMP] [DEW] [PRESSURE] [TREND] [RVR] [RECENT_WX] @CAUTION BIRD HAZARD OVER AND AROUND THE @FIELD [ARPT_COND] [NOTAMS] @RECIEVE DEP CLNC VIA DATALINK ON @ACARS [CLOSING]",
           "externalGenerator": {
-            "enabled": false
+            "enabled": false,
+            "textUrl": "",
+            "voiceUrl": "",
+            "arrival": "",
+            "departure": "",
+            "approaches": "",
+            "remarks": ""
           }
         },
         {
@@ -44896,7 +45532,7 @@
           "name": "DEP 24L - ARR 24R",
           "airportConditions": "",
           "notams": "",
-          "template": "@LTFJ ARR AND DEP ATIS INFORMATION [ATIS_CODE] [OBS_TIME] DEP RWY 24L EXP ILS @Z APCH RWY 24R [TL] [WIND] [VIS] [CLOUDS] [PRESENT_WX] [TEMP] [DEW] [PRESSURE] [TREND] [RVR] [RECENT_WX] @CAUTION BIRD HAZARD OVER AND AROUND THE @FIELD [ARPT_COND] [NOTAMS] @RECIEVE DEP CLNC VIA DATALINK ON @ACARS [CLOSING]",
+          "template": "@LTFJ ARR AND DEP ATIS INFORMATION [ATIS_CODE] [OBS_TIME] DEP RWY @24L EXP ILS @Z APCH RWY 24R [TL] [WIND] [VIS] [CLOUDS] [PRESENT_WX] [TEMP] [DEW] [PRESSURE] [TREND] [RVR] [RECENT_WX] @CAUTION BIRD HAZARD OVER AND AROUND THE @FIELD [ARPT_COND] [NOTAMS] @RECIEVE DEP CLNC VIA DATALINK ON @ACARS [CLOSING]",
           "externalGenerator": {
             "enabled": false
           }
@@ -44914,7 +45550,8 @@
           "id": "6c54324f-2565-44f3-8fb7-ac28c0ad8bb8",
           "name": "06L",
           "airportConditions": "",
-          "template": "@LTFJ ARR AND DEP ATIS INFORMATION [ATIS_CODE] [OBS_TIME] @EXP RNP @Z APCH RWY 06L [TL] [WIND] [VIS] [CLOUDS] [PRESENT_WX] [TEMP] [DEW] [PRESSURE] [TREND] [RVR] [RECENT_WX] @CAUTION BIRD HAZARD OVER AND AROUND THE @FIELD [ARPT_COND] [NOTAMS] @RECIEVE DEP CLNC VIA DATALINK ON @ACARS [CLOSING]",
+          "notams": "",
+          "template": "@LTFJ ARR AND DEP ATIS INFORMATION [ATIS_CODE] [OBS_TIME] @EXP RNP Z APCH RWY 06L [TL] [WIND] [VIS] [CLOUDS] [PRESENT_WX] [TEMP] [DEW] [PRESSURE] [TREND] [RVR] [RECENT_WX] @CAUTION BIRD HAZARD OVER AND AROUND THE @FIELD [ARPT_COND] [NOTAMS] @RECIEVE DEP CLNC VIA DATALINK ON @ACARS [CLOSING]",
           "externalGenerator": {
             "enabled": false
           }
@@ -45001,14 +45638,14 @@
         {
           "variableName": "EXP",
           "text": "EXP",
-          "voice": "EXPECT"
+          "voice": ", EXPECT,"
         }
       ],
       "airportConditionDefinitions": [
         {
           "text": "AIRBORNE FREQ 126.425",
           "ordinal": 1,
-          "enabled": false
+          "enabled": true
         },
         {
           "text": "AIRBORNE FREQ 127.100",
@@ -45036,22 +45673,22 @@
           "enabled": false
         },
         {
-          "text": "BEFORE @D TWY CTC GND FREQ 121.750",
+          "text": "WHEN TRAFFIC VACATE RWY 06L CTC 121.750",
+          "ordinal": 7,
+          "enabled": true
+        },
+        {
+          "text": "WHEN TRAFFIC VACATE RWY 06L CTC 121.580",
           "ordinal": 7,
           "enabled": false
         },
         {
-          "text": "BEFORE @D TWY CTC GND FREQ 121.580",
-          "ordinal": 8,
-          "enabled": false
-        },
-        {
-          "text": "BEFORE @A TWY CTC GND FREQ 121.750",
+          "text": "WHEN TRAFFIC VACATE RWY 06R CTC 121.750",
           "ordinal": 9,
           "enabled": false
         },
         {
-          "text": "BEFORE @A TWY CTC GND FREQ 121.580",
+          "text": "WHEN TRAFFIC VACATE RWY 06R CTC 121.580",
           "ordinal": 10,
           "enabled": false
         }
@@ -45147,6 +45784,12 @@
             "voice": ",VISIBILITY, {visibility}."
           }
         },
+        "runwayVisualRange": {
+          "neutralTendency": "Neutral",
+          "goingUpTendency": "Going Up",
+          "goingDownTendency": "Going Down",
+          "template": {}
+        },
         "presentWeather": {
           "presentWeatherTypes": {
             "-DS": {
@@ -46891,6 +47534,12 @@
         },
         "clouds": {
           "identifyCeilingLayer": false,
+          "identifyCeilingLayerTextAtis": false,
+          "textAtisCeilingPrefix": "CIG",
+          "cloudCeilingLayerTypes": [
+            "BKN",
+            "OVC"
+          ],
           "convertToMetric": false,
           "isAltitudeInHundreds": true,
           "undeterminedLayerAltitude": {
@@ -46971,6 +47620,22 @@
             "voice": ",QNH, {altimeter}."
           }
         },
+        "trend": {
+          "nosigText": "NOSIG",
+          "nosigVoice": "No Significant Changes",
+          "becomingText": "BECMG",
+          "becomingVoice": "Becoming",
+          "temporaryText": "TEMPO",
+          "temporaryVoice": "Temporary",
+          "template": {}
+        },
+        "windShear": {
+          "runwayText": "WS R{Runway}",
+          "runwayVoice": "Wind Shear Runway {Runway}",
+          "allRunwayText": "WS ALL RWY",
+          "allRunwayVoice": "Wind Shear All Runways",
+          "template": {}
+        },
         "transitionLevel": {
           "values": [
             {
@@ -47002,7 +47667,7 @@
         "notams": {
           "template": {
             "text": "NOTAMS... {notams}",
-            "voice": "NOTICES TO AIR MISSIONS: {notams}"
+            "voice": "NOTAMS...: {notams}"
           }
         },
         "closingStatement": {
@@ -47021,7 +47686,7 @@
       "atisVoice": {
         "useTextToSpeech": true,
         "voice": "US Male",
-        "speechRate": 180
+        "speechRate": 140
       },
       "presets": [
         {
@@ -47163,6 +47828,12 @@
             "voice": ",VISIBILITY, {visibility}."
           }
         },
+        "runwayVisualRange": {
+          "neutralTendency": "Neutral",
+          "goingUpTendency": "Going Up",
+          "goingDownTendency": "Going Down",
+          "template": {}
+        },
         "presentWeather": {
           "presentWeatherTypes": {
             "-DS": {
@@ -48907,6 +49578,12 @@
         },
         "clouds": {
           "identifyCeilingLayer": false,
+          "identifyCeilingLayerTextAtis": false,
+          "textAtisCeilingPrefix": "CIG",
+          "cloudCeilingLayerTypes": [
+            "BKN",
+            "OVC"
+          ],
           "convertToMetric": false,
           "isAltitudeInHundreds": true,
           "undeterminedLayerAltitude": {
@@ -48987,6 +49664,22 @@
             "voice": ",QNH, {altimeter}."
           }
         },
+        "trend": {
+          "nosigText": "NOSIG",
+          "nosigVoice": "No Significant Changes",
+          "becomingText": "BECMG",
+          "becomingVoice": "Becoming",
+          "temporaryText": "TEMPO",
+          "temporaryVoice": "Temporary",
+          "template": {}
+        },
+        "windShear": {
+          "runwayText": "WS R{Runway}",
+          "runwayVoice": "Wind Shear Runway {Runway}",
+          "allRunwayText": "WS ALL RWY",
+          "allRunwayVoice": "Wind Shear All Runways",
+          "template": {}
+        },
         "transitionLevel": {
           "values": [
             {
@@ -49018,7 +49711,7 @@
         "notams": {
           "template": {
             "text": "NOTAMS... {notams}",
-            "voice": "NOTICES TO AIR MISSIONS: {notams}"
+            "voice": "NOTAMS...: {notams}"
           }
         },
         "closingStatement": {
@@ -49037,7 +49730,7 @@
       "atisVoice": {
         "useTextToSpeech": true,
         "voice": "US Male",
-        "speechRate": 180
+        "speechRate": 140
       },
       "presets": [
         {
@@ -49174,6 +49867,12 @@
             "voice": ",VISIBILITY, {visibility}."
           }
         },
+        "runwayVisualRange": {
+          "neutralTendency": "Neutral",
+          "goingUpTendency": "Going Up",
+          "goingDownTendency": "Going Down",
+          "template": {}
+        },
         "presentWeather": {
           "presentWeatherTypes": {
             "-DS": {
@@ -50918,6 +51617,12 @@
         },
         "clouds": {
           "identifyCeilingLayer": false,
+          "identifyCeilingLayerTextAtis": false,
+          "textAtisCeilingPrefix": "CIG",
+          "cloudCeilingLayerTypes": [
+            "BKN",
+            "OVC"
+          ],
           "convertToMetric": false,
           "isAltitudeInHundreds": true,
           "undeterminedLayerAltitude": {
@@ -50998,6 +51703,22 @@
             "voice": ",QNH, {altimeter}."
           }
         },
+        "trend": {
+          "nosigText": "NOSIG",
+          "nosigVoice": "No Significant Changes",
+          "becomingText": "BECMG",
+          "becomingVoice": "Becoming",
+          "temporaryText": "TEMPO",
+          "temporaryVoice": "Temporary",
+          "template": {}
+        },
+        "windShear": {
+          "runwayText": "WS R{Runway}",
+          "runwayVoice": "Wind Shear Runway {Runway}",
+          "allRunwayText": "WS ALL RWY",
+          "allRunwayVoice": "Wind Shear All Runways",
+          "template": {}
+        },
         "transitionLevel": {
           "values": [
             {
@@ -51029,7 +51750,7 @@
         "notams": {
           "template": {
             "text": "NOTAMS... {notams}",
-            "voice": "NOTICES TO AIR MISSIONS: {notams}"
+            "voice": "NOTAMS...: {notams}"
           }
         },
         "closingStatement": {
@@ -51048,7 +51769,7 @@
       "atisVoice": {
         "useTextToSpeech": true,
         "voice": "US Male",
-        "speechRate": 180
+        "speechRate": 140
       },
       "presets": [
         {
@@ -51161,6 +51882,12 @@
             "voice": ",VISIBILITY, {visibility}."
           }
         },
+        "runwayVisualRange": {
+          "neutralTendency": "Neutral",
+          "goingUpTendency": "Going Up",
+          "goingDownTendency": "Going Down",
+          "template": {}
+        },
         "presentWeather": {
           "presentWeatherTypes": {
             "-DS": {
@@ -52905,6 +53632,12 @@
         },
         "clouds": {
           "identifyCeilingLayer": false,
+          "identifyCeilingLayerTextAtis": false,
+          "textAtisCeilingPrefix": "CIG",
+          "cloudCeilingLayerTypes": [
+            "BKN",
+            "OVC"
+          ],
           "convertToMetric": false,
           "isAltitudeInHundreds": true,
           "undeterminedLayerAltitude": {
@@ -52985,6 +53718,22 @@
             "voice": ",QNH, {altimeter}."
           }
         },
+        "trend": {
+          "nosigText": "NOSIG",
+          "nosigVoice": "No Significant Changes",
+          "becomingText": "BECMG",
+          "becomingVoice": "Becoming",
+          "temporaryText": "TEMPO",
+          "temporaryVoice": "Temporary",
+          "template": {}
+        },
+        "windShear": {
+          "runwayText": "WS R{Runway}",
+          "runwayVoice": "Wind Shear Runway {Runway}",
+          "allRunwayText": "WS ALL RWY",
+          "allRunwayVoice": "Wind Shear All Runways",
+          "template": {}
+        },
         "transitionLevel": {
           "values": [
             {
@@ -53016,7 +53765,7 @@
         "notams": {
           "template": {
             "text": "NOTAMS... {notams}",
-            "voice": "NOTICES TO AIR MISSIONS: {notams}"
+            "voice": "NOTAMS...: {notams}"
           }
         },
         "closingStatement": {
@@ -53035,7 +53784,7 @@
       "atisVoice": {
         "useTextToSpeech": true,
         "voice": "US Male",
-        "speechRate": 180
+        "speechRate": 140
       },
       "presets": [
         {
@@ -53158,6 +53907,12 @@
             "voice": ",VISIBILITY, {visibility}."
           }
         },
+        "runwayVisualRange": {
+          "neutralTendency": "Neutral",
+          "goingUpTendency": "Going Up",
+          "goingDownTendency": "Going Down",
+          "template": {}
+        },
         "presentWeather": {
           "presentWeatherTypes": {
             "-DS": {
@@ -54902,6 +55657,12 @@
         },
         "clouds": {
           "identifyCeilingLayer": false,
+          "identifyCeilingLayerTextAtis": false,
+          "textAtisCeilingPrefix": "CIG",
+          "cloudCeilingLayerTypes": [
+            "BKN",
+            "OVC"
+          ],
           "convertToMetric": false,
           "isAltitudeInHundreds": true,
           "undeterminedLayerAltitude": {
@@ -54982,6 +55743,22 @@
             "voice": ",QNH, {altimeter}."
           }
         },
+        "trend": {
+          "nosigText": "NOSIG",
+          "nosigVoice": "No Significant Changes",
+          "becomingText": "BECMG",
+          "becomingVoice": "Becoming",
+          "temporaryText": "TEMPO",
+          "temporaryVoice": "Temporary",
+          "template": {}
+        },
+        "windShear": {
+          "runwayText": "WS R{Runway}",
+          "runwayVoice": "Wind Shear Runway {Runway}",
+          "allRunwayText": "WS ALL RWY",
+          "allRunwayVoice": "Wind Shear All Runways",
+          "template": {}
+        },
         "transitionLevel": {
           "values": [
             {
@@ -55013,7 +55790,7 @@
         "notams": {
           "template": {
             "text": "NOTAMS... {notams}",
-            "voice": "NOTICES TO AIR MISSIONS: {notams}"
+            "voice": "NOTAMS...: {notams}"
           }
         },
         "closingStatement": {
@@ -55031,7 +55808,7 @@
       "atisVoice": {
         "useTextToSpeech": true,
         "voice": "US Male",
-        "speechRate": 180
+        "speechRate": 140
       },
       "presets": [
         {
@@ -55164,6 +55941,12 @@
             "voice": ",VISIBILITY, {visibility}."
           }
         },
+        "runwayVisualRange": {
+          "neutralTendency": "Neutral",
+          "goingUpTendency": "Going Up",
+          "goingDownTendency": "Going Down",
+          "template": {}
+        },
         "presentWeather": {
           "presentWeatherTypes": {
             "-DS": {
@@ -56908,6 +57691,12 @@
         },
         "clouds": {
           "identifyCeilingLayer": false,
+          "identifyCeilingLayerTextAtis": false,
+          "textAtisCeilingPrefix": "CIG",
+          "cloudCeilingLayerTypes": [
+            "BKN",
+            "OVC"
+          ],
           "convertToMetric": false,
           "isAltitudeInHundreds": true,
           "undeterminedLayerAltitude": {
@@ -56988,6 +57777,22 @@
             "voice": ",QNH, {altimeter}."
           }
         },
+        "trend": {
+          "nosigText": "NOSIG",
+          "nosigVoice": "No Significant Changes",
+          "becomingText": "BECMG",
+          "becomingVoice": "Becoming",
+          "temporaryText": "TEMPO",
+          "temporaryVoice": "Temporary",
+          "template": {}
+        },
+        "windShear": {
+          "runwayText": "WS R{Runway}",
+          "runwayVoice": "Wind Shear Runway {Runway}",
+          "allRunwayText": "WS ALL RWY",
+          "allRunwayVoice": "Wind Shear All Runways",
+          "template": {}
+        },
         "transitionLevel": {
           "values": [
             {
@@ -57019,7 +57824,7 @@
         "notams": {
           "template": {
             "text": "NOTAMS... {notams}",
-            "voice": "NOTICES TO AIR MISSIONS: {notams}"
+            "voice": "NOTAMS...: {notams}"
           }
         },
         "closingStatement": {
@@ -57037,7 +57842,7 @@
       "atisVoice": {
         "useTextToSpeech": true,
         "voice": "US Male",
-        "speechRate": 180
+        "speechRate": 140
       },
       "presets": [
         {
@@ -57156,6 +57961,12 @@
             "voice": ",VISIBILITY, {visibility}."
           }
         },
+        "runwayVisualRange": {
+          "neutralTendency": "Neutral",
+          "goingUpTendency": "Going Up",
+          "goingDownTendency": "Going Down",
+          "template": {}
+        },
         "presentWeather": {
           "presentWeatherTypes": {
             "-DS": {
@@ -58900,6 +59711,12 @@
         },
         "clouds": {
           "identifyCeilingLayer": false,
+          "identifyCeilingLayerTextAtis": false,
+          "textAtisCeilingPrefix": "CIG",
+          "cloudCeilingLayerTypes": [
+            "BKN",
+            "OVC"
+          ],
           "convertToMetric": false,
           "isAltitudeInHundreds": true,
           "undeterminedLayerAltitude": {
@@ -58980,6 +59797,22 @@
             "voice": ",QNH, {altimeter}."
           }
         },
+        "trend": {
+          "nosigText": "NOSIG",
+          "nosigVoice": "No Significant Changes",
+          "becomingText": "BECMG",
+          "becomingVoice": "Becoming",
+          "temporaryText": "TEMPO",
+          "temporaryVoice": "Temporary",
+          "template": {}
+        },
+        "windShear": {
+          "runwayText": "WS R{Runway}",
+          "runwayVoice": "Wind Shear Runway {Runway}",
+          "allRunwayText": "WS ALL RWY",
+          "allRunwayVoice": "Wind Shear All Runways",
+          "template": {}
+        },
         "transitionLevel": {
           "values": [
             {
@@ -59011,7 +59844,7 @@
         "notams": {
           "template": {
             "text": "NOTAMS... {notams}",
-            "voice": "NOTICES TO AIR MISSIONS: {notams}"
+            "voice": "NOTAMS...: {notams}"
           }
         },
         "closingStatement": {
@@ -59030,7 +59863,7 @@
       "atisVoice": {
         "useTextToSpeech": true,
         "voice": "US Male",
-        "speechRate": 180
+        "speechRate": 140
       },
       "presets": [
         {
@@ -59165,6 +59998,12 @@
             "voice": ",VISIBILITY, {visibility}."
           }
         },
+        "runwayVisualRange": {
+          "neutralTendency": "Neutral",
+          "goingUpTendency": "Going Up",
+          "goingDownTendency": "Going Down",
+          "template": {}
+        },
         "presentWeather": {
           "presentWeatherTypes": {
             "-DS": {
@@ -60909,6 +61748,12 @@
         },
         "clouds": {
           "identifyCeilingLayer": false,
+          "identifyCeilingLayerTextAtis": false,
+          "textAtisCeilingPrefix": "CIG",
+          "cloudCeilingLayerTypes": [
+            "BKN",
+            "OVC"
+          ],
           "convertToMetric": false,
           "isAltitudeInHundreds": true,
           "undeterminedLayerAltitude": {
@@ -60989,6 +61834,22 @@
             "voice": ",QNH, {altimeter}."
           }
         },
+        "trend": {
+          "nosigText": "NOSIG",
+          "nosigVoice": "No Significant Changes",
+          "becomingText": "BECMG",
+          "becomingVoice": "Becoming",
+          "temporaryText": "TEMPO",
+          "temporaryVoice": "Temporary",
+          "template": {}
+        },
+        "windShear": {
+          "runwayText": "WS R{Runway}",
+          "runwayVoice": "Wind Shear Runway {Runway}",
+          "allRunwayText": "WS ALL RWY",
+          "allRunwayVoice": "Wind Shear All Runways",
+          "template": {}
+        },
         "transitionLevel": {
           "values": [
             {
@@ -61020,7 +61881,7 @@
         "notams": {
           "template": {
             "text": "NOTAMS... {notams}",
-            "voice": "NOTICES TO AIR MISSIONS: {notams}"
+            "voice": "NOTAMS...: {notams}"
           }
         },
         "closingStatement": {
@@ -61039,7 +61900,7 @@
       "atisVoice": {
         "useTextToSpeech": true,
         "voice": "US Male",
-        "speechRate": 180
+        "speechRate": 140
       },
       "presets": [
         {
@@ -61171,6 +62032,12 @@
             "voice": ",VISIBILITY, {visibility}."
           }
         },
+        "runwayVisualRange": {
+          "neutralTendency": "Neutral",
+          "goingUpTendency": "Going Up",
+          "goingDownTendency": "Going Down",
+          "template": {}
+        },
         "presentWeather": {
           "presentWeatherTypes": {
             "-DS": {
@@ -62915,6 +63782,12 @@
         },
         "clouds": {
           "identifyCeilingLayer": false,
+          "identifyCeilingLayerTextAtis": false,
+          "textAtisCeilingPrefix": "CIG",
+          "cloudCeilingLayerTypes": [
+            "BKN",
+            "OVC"
+          ],
           "convertToMetric": false,
           "isAltitudeInHundreds": true,
           "undeterminedLayerAltitude": {
@@ -62995,6 +63868,22 @@
             "voice": ",QNH, {altimeter}."
           }
         },
+        "trend": {
+          "nosigText": "NOSIG",
+          "nosigVoice": "No Significant Changes",
+          "becomingText": "BECMG",
+          "becomingVoice": "Becoming",
+          "temporaryText": "TEMPO",
+          "temporaryVoice": "Temporary",
+          "template": {}
+        },
+        "windShear": {
+          "runwayText": "WS R{Runway}",
+          "runwayVoice": "Wind Shear Runway {Runway}",
+          "allRunwayText": "WS ALL RWY",
+          "allRunwayVoice": "Wind Shear All Runways",
+          "template": {}
+        },
         "transitionLevel": {
           "values": [
             {
@@ -63026,7 +63915,7 @@
         "notams": {
           "template": {
             "text": "NOTAMS... {notams}",
-            "voice": "NOTICES TO AIR MISSIONS: {notams}"
+            "voice": "NOTAMS...: {notams}"
           }
         },
         "closingStatement": {
@@ -63045,7 +63934,7 @@
       "atisVoice": {
         "useTextToSpeech": true,
         "voice": "US Male",
-        "speechRate": 180
+        "speechRate": 140
       },
       "presets": [
         {
@@ -63180,6 +64069,12 @@
             "voice": ",VISIBILITY, {visibility}."
           }
         },
+        "runwayVisualRange": {
+          "neutralTendency": "Neutral",
+          "goingUpTendency": "Going Up",
+          "goingDownTendency": "Going Down",
+          "template": {}
+        },
         "presentWeather": {
           "presentWeatherTypes": {
             "-DS": {
@@ -64924,6 +65819,12 @@
         },
         "clouds": {
           "identifyCeilingLayer": false,
+          "identifyCeilingLayerTextAtis": false,
+          "textAtisCeilingPrefix": "CIG",
+          "cloudCeilingLayerTypes": [
+            "BKN",
+            "OVC"
+          ],
           "convertToMetric": false,
           "isAltitudeInHundreds": true,
           "undeterminedLayerAltitude": {
@@ -65004,6 +65905,22 @@
             "voice": ",QNH, {altimeter}."
           }
         },
+        "trend": {
+          "nosigText": "NOSIG",
+          "nosigVoice": "No Significant Changes",
+          "becomingText": "BECMG",
+          "becomingVoice": "Becoming",
+          "temporaryText": "TEMPO",
+          "temporaryVoice": "Temporary",
+          "template": {}
+        },
+        "windShear": {
+          "runwayText": "WS R{Runway}",
+          "runwayVoice": "Wind Shear Runway {Runway}",
+          "allRunwayText": "WS ALL RWY",
+          "allRunwayVoice": "Wind Shear All Runways",
+          "template": {}
+        },
         "transitionLevel": {
           "values": [
             {
@@ -65035,7 +65952,7 @@
         "notams": {
           "template": {
             "text": "NOTAMS... {notams}",
-            "voice": "NOTICES TO AIR MISSIONS: {notams}"
+            "voice": "NOTAMS...: {notams}"
           }
         },
         "closingStatement": {
@@ -65054,7 +65971,7 @@
       "atisVoice": {
         "useTextToSpeech": true,
         "voice": "US Male",
-        "speechRate": 180
+        "speechRate": 140
       },
       "presets": [
         {
