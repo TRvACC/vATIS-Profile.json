@@ -1,8 +1,8 @@
 {
   "name": "LTXX",
   "id": "0cac1779-e488-4d86-84b6-c95d05dd6cf9",
-  "updateUrl": "https://raw.githubusercontent.com/TRvACC/vATIS-Profile.json/refs/heads/main/vATIS%20Profile%20-%20LTXX.json",
-  "updateSerial": 2025060102,
+   "updateUrl": "https://raw.githubusercontent.com/TRvACC/vATIS-Profile.json/refs/heads/main/vATIS%20Profile%20-%20LTXX.json",
+  "updateSerial": 2025061301,
   "stations": [
     {
       "id": "0246f9d7-62d1-4c22-9ab4-664635164b4d",
@@ -2129,11 +2129,6 @@
           "text": "RWY 18R CLSD.",
           "ordinal": 6,
           "enabled": false
-        },
-        {
-          "text": "NOTIFY ATC IF AIRAC 2505 NOT ON BOARD",
-          "ordinal": 7,
-          "enabled": true
         }
       ]
     },
@@ -4293,11 +4288,6 @@
           "text": "RWY 18R CLSD.",
           "ordinal": 6,
           "enabled": false
-        },
-        {
-          "text": "NOTIFY ATC IF AIRAC 2505 NOT ON BOARD",
-          "ordinal": 7,
-          "enabled": true
         }
       ]
     },
@@ -6379,13 +6369,7 @@
           "enabled": false
         }
       ],
-      "notamDefinitions": [
-        {
-          "text": "NOTIFY ATC IF AIRAC 2505 NOT ON BOARD",
-          "ordinal": 1,
-          "enabled": true
-        }
-      ]
+      "notamDefinitions": []
     },
     {
       "id": "89d990ac-b1a9-4c82-b79f-465887e009a9",
@@ -33287,13 +33271,7 @@
           "enabled": false
         }
       ],
-      "notamDefinitions": [
-        {
-          "text": "NOTIFY ATC IF AIRAC 2505 NOT ON BOARD",
-          "ordinal": 1,
-          "enabled": true
-        }
-      ]
+      "notamDefinitions": []
     },
     {
       "id": "39cc1d16-98c8-45fa-84d1-c6d5a1326ae4",
@@ -37409,11 +37387,6 @@
           "text": "RWY 16R/34L CLSD.",
           "ordinal": 2,
           "enabled": false
-        },
-        {
-          "text": "NOTIFY ATC IF AIRAC 2505 NOT ON BOARD",
-          "ordinal": 3,
-          "enabled": true
         }
       ]
     },
@@ -45695,7 +45668,7 @@
       ],
       "notamDefinitions": [
         {
-          "text": "NOTIFY ATC IF AIRAC 2505 NOT ON BOARD",
+          "text": "TWY A 8 AND A 9 CLOSED IF ABLE VACATE A 7 IF UNABLE VACATE FROM A10",
           "ordinal": 1,
           "enabled": true
         }
