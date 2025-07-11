@@ -1,8 +1,8 @@
 {
   "name": "LTXX",
   "id": "0cac1779-e488-4d86-84b6-c95d05dd6cf9",
-   "updateUrl": "https://raw.githubusercontent.com/TRvACC/vATIS-Profile.json/refs/heads/main/vATIS%20Profile%20-%20LTXX.json",
-  "updateSerial": 2025061301,
+  "updateUrl": "https://raw.githubusercontent.com/TRvACC/vATIS-Profile.json/refs/heads/main/vATIS%20Profile%20-%20LTXX.json",
+  "updateSerial": 2025071101,
   "stations": [
     {
       "id": "0246f9d7-62d1-4c22-9ab4-664635164b4d",
@@ -4256,6 +4256,11 @@
           "text": "DEP FREQ 129.425",
           "ordinal": 6,
           "enabled": false
+        },
+        {
+          "text": "DEP FREQ 135.400",
+          "ordinal": 7,
+          "enabled": false
         }
       ],
       "notamDefinitions": [
@@ -6331,7 +6336,7 @@
         {
           "text": "AIRBORNE FREQ 131.125",
           "ordinal": 2,
-          "enabled": false
+          "enabled": true
         },
         {
           "text": "AIRBORNE FREQ 119.350",
@@ -14485,17 +14490,29 @@
         {
           "id": "08cd4917-818e-4395-8350-cac066c214c2",
           "name": "03R",
-          "template": "[FACILITY] ATIS INFORMATION [ATIS_CODE] [OBS_TIME] RWY 03R @EXP ILS @Z APCH RWY 03R [TL] [WIND] [VIS] [CLOUDS] [PRESENT_WX] [TEMP] [DEW] [PRESSURE] [TREND] [RVR] [RECENT_WX] [NOTAMS] [CLOSING]",
+          "template": "[FACILITY] ATIS INFORMATION [ATIS_CODE] [OBS_TIME] RWY 03R @EXP ILS @Y APCH RWY 03R [TL] [WIND] [VIS] [CLOUDS] [PRESENT_WX] [TEMP] [DEW] [PRESSURE] [TREND] [RVR] [RECENT_WX] [NOTAMS] [CLOSING]",
           "externalGenerator": {
-            "enabled": false
+            "enabled": false,
+            "textUrl": "",
+            "voiceUrl": "",
+            "arrival": "",
+            "departure": "",
+            "approaches": "",
+            "remarks": ""
           }
         },
         {
           "id": "03348c0b-8b0b-42f6-8251-5b43b862a65f",
           "name": "21L",
-          "template": "[FACILITY] ATIS INFORMATION [ATIS_CODE] [OBS_TIME] RWY 21L @EXP ILS @Z APCH RWY 21L [TL] [WIND] [VIS] [CLOUDS] [PRESENT_WX] [TEMP] [DEW] [PRESSURE] [TREND] [RVR] [RECENT_WX] [NOTAMS] [CLOSING]",
+          "template": "[FACILITY] ATIS INFORMATION [ATIS_CODE] [OBS_TIME] RWY 21L @EXP ILS @Y APCH RWY 21L [TL] [WIND] [VIS] [CLOUDS] [PRESENT_WX] [TEMP] [DEW] [PRESSURE] [TREND] [RVR] [RECENT_WX] [NOTAMS] [CLOSING]",
           "externalGenerator": {
-            "enabled": false
+            "enabled": false,
+            "textUrl": "",
+            "voiceUrl": "",
+            "arrival": "",
+            "departure": "",
+            "approaches": "",
+            "remarks": ""
           }
         }
       ],
@@ -20598,7 +20615,7 @@
           "id": "231c698e-3104-4c89-8d14-65b7da09f916",
           "name": "DEP 03L/ ARR 03R",
           "airportConditions": "",
-          "notams": "\r\n",
+          "notams": "RWY 03L CLSD.",
           "template": "@LTAC ATIS INFORMATION [ATIS_CODE] [OBS_TIME] RWY 03L @EXP ILS V APCH RWY 03R [TL] [WIND] [VIS] [CLOUDS] [PRESENT_WX] [TEMP] [DEW] [PRESSURE] [TREND] [RVR] [RECENT_WX] [NOTAMS] DEP TFC INTXN @E IS @MANDATORY REPORT IF UNABLE TO EXECUTE INTXN DEPS @RECIEVE DEP CLNC VIA DATALINK ON ACARS [CLOSING]",
           "externalGenerator": {
             "enabled": false
@@ -31035,7 +31052,7 @@
         },
         {
           "text": "AIRBORNE FREQ 127.100",
-          "ordinal": 5,
+          "ordinal": 6,
           "enabled": false
         },
         {
@@ -31051,6 +31068,11 @@
         {
           "text": "AIRBORNE FREQ 129.425",
           "ordinal": 9,
+          "enabled": false
+        },
+        {
+          "text": "AIRBORNE FREQ 135.400",
+          "ordinal": 10,
           "enabled": false
         }
       ],
@@ -45646,23 +45668,28 @@
           "enabled": false
         },
         {
+          "text": "AIRBORNE FREQ 135.400",
+          "ordinal": 6,
+          "enabled": false
+        },
+        {
           "text": "WHEN TRAFFIC VACATE RWY 06L CTC 121.750",
-          "ordinal": 7,
+          "ordinal": 8,
           "enabled": false
         },
         {
           "text": "WHEN TRAFFIC VACATE RWY 06L CTC 121.580",
-          "ordinal": 7,
-          "enabled": false
-        },
-        {
-          "text": "WHEN TRAFFIC VACATE RWY 06R CTC 121.750",
           "ordinal": 9,
           "enabled": false
         },
         {
-          "text": "WHEN TRAFFIC VACATE RWY 06R CTC 121.580",
+          "text": "WHEN TRAFFIC VACATE RWY 06R CTC 121.750",
           "ordinal": 10,
+          "enabled": false
+        },
+        {
+          "text": "WHEN TRAFFIC VACATE RWY 06R CTC 121.580",
+          "ordinal": 11,
           "enabled": false
         }
       ],
