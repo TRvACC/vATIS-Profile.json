@@ -1,6 +1,8 @@
 {
   "name": "LTXX",
-  "id": "28f29903-09a4-4715-98d7-b9e5ec6236ea",
+  "id": "269ed813-ef79-47d6-b80d-25f84ec3d6a4",
+  "updateUrl": "https://raw.githubusercontent.com/TRvACC/vATIS-Profile.json/refs/heads/main/vATIS%20Profile%20-%20LTXX.json",
+  "updateSerial": 2026011901,
   "stations": [
     {
       "id": "8b753578-b3c6-4497-8d4f-bccb1859a507",
@@ -8275,7 +8277,7 @@
           "name": "18L",
           "airportConditions": "",
           "notams": "",
-          "template": "[FACILITY] DEP ATIS [ATIS_CODE]\r\n[OBS_TIME] DEP RWYS 18C \r\n\r\nRWY 18L [WIND] [VIS] [CLOUDS] [PRESENT_WX] [TEMP] [DEW] [PRESSURE] [TREND] [RVR] [RECENT_WX]\r\n\r\nBIRD HAZARD OVR AERODROME.[NOTAMS] @RECIEVE ATC CLR VIA FMS. [ARPT_COND]\r\n\r\n[CLOSING]",
+          "template": "[FACILITY] DEP ATIS [ATIS_CODE]\r\n[OBS_TIME] DEP RWYS 18L\r\n\r\nRWY 18L [WIND] [VIS] [CLOUDS] [PRESENT_WX] [TEMP] [DEW] [PRESSURE] [TREND] [RVR] [RECENT_WX]\r\n\r\nBIRD HAZARD OVR AERODROME.[NOTAMS] @RECIEVE ATC CLR VIA FMS. [ARPT_COND]\r\n\r\n[CLOSING]",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
@@ -8291,7 +8293,7 @@
           "ordinal": 3,
           "name": "36C",
           "airportConditions": "",
-          "template": "[FACILITY] DEP ATIS [ATIS_CODE]\r\n[OBS_TIME] DEP RWYS 18C \r\n\r\nRWY 36C [WIND] [VIS] [CLOUDS] [PRESENT_WX] [TEMP] [DEW] [PRESSURE] [TREND] [RVR] [RECENT_WX]\r\n\r\nBIRD HAZARD OVR AERODROME.[NOTAMS] @RECIEVE ATC CLR VIA FMS. [ARPT_COND]\r\n\r\n[CLOSING]",
+          "template": "[FACILITY] DEP ATIS [ATIS_CODE]\r\n[OBS_TIME] DEP RWYS 36C \r\n\r\nRWY 36C [WIND] [VIS] [CLOUDS] [PRESENT_WX] [TEMP] [DEW] [PRESSURE] [TREND] [RVR] [RECENT_WX]\r\n\r\nBIRD HAZARD OVR AERODROME.[NOTAMS] @RECIEVE ATC CLR VIA FMS. [ARPT_COND]\r\n\r\n[CLOSING]",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
@@ -8307,7 +8309,7 @@
           "ordinal": 4,
           "name": "36R",
           "airportConditions": "",
-          "template": "[FACILITY] DEP ATIS [ATIS_CODE]\r\n[OBS_TIME] DEP RWYS 18C \r\n\r\nRWY 36R [WIND] [VIS] [CLOUDS] [PRESENT_WX] [TEMP] [DEW] [PRESSURE] [TREND] [RVR] [RECENT_WX]\r\n\r\nBIRD HAZARD OVR AERODROME.[NOTAMS] @RECIEVE ATC CLR VIA FMS. [ARPT_COND]\r\n\r\n[CLOSING]",
+          "template": "[FACILITY] DEP ATIS [ATIS_CODE]\r\n[OBS_TIME] DEP RWYS 36R \r\n\r\nRWY 36R [WIND] [VIS] [CLOUDS] [PRESENT_WX] [TEMP] [DEW] [PRESSURE] [TREND] [RVR] [RECENT_WX]\r\n\r\nBIRD HAZARD OVR AERODROME.[NOTAMS] @RECIEVE ATC CLR VIA FMS. [ARPT_COND]\r\n\r\n[CLOSING]",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
@@ -37304,7 +37306,7 @@
         {
           "text": "AIRBORN FREQUENCY 135.4",
           "ordinal": 5,
-          "enabled": false
+          "enabled": true
         },
         {
           "text": "AIRBORN FREQUENCY 129.425",
@@ -102935,7 +102937,7 @@
           "id": "fb64ef68-a245-453f-9d7b-8e858c1dce82",
           "ordinal": 12,
           "name": "35R - 36",
-          "airportConditions": "",
+          "airportConditions": "AFTER VACATING RWY CTC 126.3.",
           "notams": "",
           "template": "[FACILITY] ARR ATIS [ATIS_CODE]\r\n[OBS_TIME] @EXP ILS @Y APCH 35R @EXP ILS @Y APCH 36\r\n\r\n[WIND] [TL] [VIS] [CLOUDS] [PRESENT_WX] [TEMP] [DEW] [PRESSURE] [TREND] [RVR] [RECENT_WX] \r\n[NOTAMS] [ARPT_COND] \r\n\r\nCTN BIRD ACT. SIMUL INDEPENDENT PARL APCH INPR ON RWY 35R AND 36.\r\n\r\n[CLOSING]",
           "externalGenerator": {
