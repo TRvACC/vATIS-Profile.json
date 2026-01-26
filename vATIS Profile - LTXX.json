@@ -2013,7 +2013,7 @@
           "name": "DEP 21R/ ARR 21C",
           "airportConditions": "",
           "notams": "",
-          "template": "@LTAC ATIS [ATIS_CODE]\r\n[OBS_TIME] @EXP ILS Z APCH RWY 21R DEP RWY 21C\r\n\r\n[WIND] [TL] [VIS] [CLOUDS] [PRESENT_WX] [TEMP] [DEW] [PRESSURE] [TREND] [RVR] [RECENT_WX]\r\n\r\nCTN BIRD HAZARD OVR AERODROME. [ARPT_COND] [NOTAMS] FOR DELIVERY FIRST USE DIGITAL DEP CLR. PREFERENTIAL RWY IN USE.\r\n\r\n[CLOSING]",
+          "template": "@LTAC ATIS [ATIS_CODE]\r\n[OBS_TIME] @EXP ILS Z APCH RWY 21C DEP RWY 21R\r\n\r\n[WIND] [TL] [VIS] [CLOUDS] [PRESENT_WX] [TEMP] [DEW] [PRESSURE] [TREND] [RVR] [RECENT_WX]\r\n\r\nCTN BIRD HAZARD OVR AERODROME. [ARPT_COND] [NOTAMS] FOR DELIVERY FIRST USE DIGITAL DEP CLR. PREFERENTIAL RWY IN USE.\r\n\r\n[CLOSING]",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
