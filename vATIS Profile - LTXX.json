@@ -102957,8 +102957,6 @@
           "id": "fb64ef68-a245-453f-9d7b-8e858c1dce82",
           "ordinal": 12,
           "name": "35R - 36",
-          "airportConditions": "AFTER VACATING RWY CTC 126.3.",
-          "notams": "",
           "template": "[FACILITY] ARR ATIS [ATIS_CODE]\r\n[OBS_TIME] @EXP ILS @Y APCH 35R @EXP ILS @Y APCH 36\r\n\r\n[WIND] [TL] [VIS] [CLOUDS] [PRESENT_WX] [TEMP] [DEW] [PRESSURE] [TREND] [RVR] [RECENT_WX] \r\n[NOTAMS] [ARPT_COND] \r\n\r\nCTN BIRD ACT. SIMUL INDEPENDENT PARL APCH INPR ON RWY 35R AND 36.\r\n\r\n[CLOSING]",
           "externalGenerator": {
             "enabled": false,
