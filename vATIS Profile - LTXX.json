@@ -2,7 +2,7 @@
   "name": "LTXX",
   "id": "44233671-8351-445d-8c0d-18c79a3b3b04",
   "updateUrl": "https://raw.githubusercontent.com/TRvACC/vATIS-Profile.json/refs/heads/main/vATIS%20Profile%20-%20LTXX.json",
-  "updateSerial": 2026071001,
+  "updateSerial": 2026071101,
   "stations": [
     {
       "id": "8b753578-b3c6-4497-8d4f-bccb1859a507",
@@ -33153,7 +33153,7 @@
         {
           "text": "AFTER DEP CTC 120.500",
           "ordinal": 5,
-          "enabled": true
+          "enabled": false
         },
         {
           "text": "AFTER DEP CTC 127.100",
@@ -102922,7 +102922,7 @@
           "name": "NORTH TRIPLE PARALLEL",
           "airportConditions": "",
           "notams": "",
-          "template": "[FACILITY] ARR ATIS [ATIS_CODE]\r\n[OBS_TIME] @EXP ILS @Z 34L @EXP ILS @Z APCH 35R @EXP ILS @Z APCH 36 \r\n\r\n[WIND] [TL] [VIS] [CLOUDS] [PRESENT_WX] [TEMP] [DEW] [PRESSURE] [TREND] [RVR] [RECENT_WX] \r\n[NOTAMS] [ARPT_COND] \r\n\r\nCTN BIRD ACT. SIMUL INDEPENDENT TRIPLE PARL APCH INPR ON RWY 34L AND 35R AND 36.\r\n\r\n[CLOSING]",
+          "template": "[FACILITY] ARR ATIS [ATIS_CODE]\r\n[OBS_TIME] @EXP ILS @Z 34L @EXP ILS @Z APCH 35R @EXP ILS @Z APCH 36 \r\n\r\n[WIND] [TL] [VIS] [CLOUDS] [PRESENT_WX] [TEMP] [DEW] [PRESSURE] [TREND] [RVR] [RECENT_WX] \r\n[NOTAMS] \r\n\r\n[ARPT_COND] \r\n\r\nCTN BIRD ACT. SIMUL INDEPENDENT TRIPLE PARL APCH INPR ON RWY 34L AND 35R AND 36.\r\n\r\n[CLOSING]",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
@@ -102937,7 +102937,7 @@
           "id": "434f611c-372f-4d6e-a643-301b66dc9157",
           "ordinal": 2,
           "name": "SOUTH TRIPLE PARALLEL",
-          "template": "[FACILITY] ARR ATIS [ATIS_CODE]\r\n[OBS_TIME] @EXP ILS @Z 16R @EXP ILS @Z APCH 17L @EXP ILS @Z APCH 18\r\n\r\n[WIND] [TL] [VIS] [CLOUDS] [PRESENT_WX] [TEMP] [DEW] [PRESSURE] [TREND] [RVR] [RECENT_WX] \r\n[NOTAMS] [ARPT_COND] \r\n\r\nCTN BIRD ACT. SIMUL INDEPENDENT TRIPLE PARL APCH INPR ON RWY 16R AND 17L AND 18.\r\n\r\n[CLOSING]",
+          "template": "[FACILITY] ARR ATIS [ATIS_CODE]\r\n[OBS_TIME] @EXP ILS @Z 16R @EXP ILS @Z APCH 17L @EXP ILS @Z APCH 18\r\n\r\n[WIND] [TL] [VIS] [CLOUDS] [PRESENT_WX] [TEMP] [DEW] [PRESSURE] [TREND] [RVR] [RECENT_WX] \r\n[NOTAMS] \r\n\r\n[ARPT_COND] \r\n\r\nCTN BIRD ACT. SIMUL INDEPENDENT TRIPLE PARL APCH INPR ON RWY 16R AND 17L AND 18.\r\n\r\n[CLOSING]",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
@@ -102962,7 +102962,7 @@
           "id": "eddff802-0e28-4c3d-a1b7-06a18c1da7f2",
           "ordinal": 4,
           "name": "17L - 18",
-          "template": "[FACILITY] ARR ATIS [ATIS_CODE]\r\n[OBS_TIME] @EXP ILS @Z APCH 17L @EXP ILS @Z APCH 18\r\n\r\n[WIND] [TL] [VIS] [CLOUDS] [PRESENT_WX] [TEMP] [DEW] [PRESSURE] [TREND] [RVR] [RECENT_WX] \r\n[NOTAMS] [ARPT_COND] \r\n\r\nCTN BIRD ACT. SIMUL INDEPENDENT PARL APCH INPR ON RWY 17L AND 18.\r\n\r\n[CLOSING]",
+          "template": "[FACILITY] ARR ATIS [ATIS_CODE]\r\n[OBS_TIME] @EXP ILS @Z APCH 17L @EXP ILS @Z APCH 18\r\n\r\n[WIND] [TL] [VIS] [CLOUDS] [PRESENT_WX] [TEMP] [DEW] [PRESSURE] [TREND] [RVR] [RECENT_WX] \r\n[NOTAMS] \r\n\r\n[ARPT_COND] \r\n\r\nCTN BIRD ACT. SIMUL INDEPENDENT PARL APCH INPR ON RWY 17L AND 18.\r\n\r\n[CLOSING]",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
@@ -102977,7 +102977,7 @@
           "id": "8302ec76-a155-4578-9403-9969826077ee",
           "ordinal": 5,
           "name": "16R - 18",
-          "template": "[FACILITY] ARR ATIS [ATIS_CODE]\r\n[OBS_TIME] @EXP ILS @Z APCH 16R @EXP ILS @Z APCH 18\r\n\r\n[WIND] [TL] [VIS] [CLOUDS] [PRESENT_WX] [TEMP] [DEW] [PRESSURE] [TREND] [RVR] [RECENT_WX] \r\n[NOTAMS] [ARPT_COND] \r\n\r\nCTN BIRD ACT. SIMUL INDEPENDENT PARL APCH INPR ON RWY 16R AND 18.\r\n\r\n[CLOSING]",
+          "template": "[FACILITY] ARR ATIS [ATIS_CODE]\r\n[OBS_TIME] @EXP ILS @Z APCH 16R @EXP ILS @Z APCH 18\r\n\r\n[WIND] [TL] [VIS] [CLOUDS] [PRESENT_WX] [TEMP] [DEW] [PRESSURE] [TREND] [RVR] [RECENT_WX] \r\n[NOTAMS] \r\n\r\n[ARPT_COND] \r\n\r\nCTN BIRD ACT. SIMUL INDEPENDENT PARL APCH INPR ON RWY 16R AND 18.\r\n\r\n[CLOSING]",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
@@ -102992,7 +102992,7 @@
           "id": "023d2223-6b41-491a-ae04-02b7a020191c",
           "ordinal": 6,
           "name": "16R - 17L",
-          "template": "[FACILITY] ARR ATIS [ATIS_CODE]\r\n[OBS_TIME] @EXP ILS @Z APCH 16R @EXP ILS @Z APCH 17L\r\n\r\n[WIND] [TL] [VIS] [CLOUDS] [PRESENT_WX] [TEMP] [DEW] [PRESSURE] [TREND] [RVR] [RECENT_WX] \r\n[NOTAMS] [ARPT_COND] \r\n\r\nCTN BIRD ACT. SIMUL INDEPENDENT PARL APCH INPR ON RWY 16R AND 17L.\r\n\r\n[CLOSING]",
+          "template": "[FACILITY] ARR ATIS [ATIS_CODE]\r\n[OBS_TIME] @EXP ILS @Z APCH 16R @EXP ILS @Z APCH 17L\r\n\r\n[WIND] [TL] [VIS] [CLOUDS] [PRESENT_WX] [TEMP] [DEW] [PRESSURE] [TREND] [RVR] [RECENT_WX] \r\n[NOTAMS] \r\n\r\n[ARPT_COND] \r\n\r\nCTN BIRD ACT. SIMUL INDEPENDENT PARL APCH INPR ON RWY 16R AND 17L.\r\n\r\n[CLOSING]",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
@@ -103017,7 +103017,7 @@
           "id": "521a3039-d106-479a-aa6f-49e6c94d85b9",
           "ordinal": 8,
           "name": "16R",
-          "template": "[FACILITY] ARR ATIS [ATIS_CODE]\r\n[OBS_TIME] @EXP ILS @Z APCH 16R\r\n\r\nRWY 16R [WIND] [TL] [VIS] [CLOUDS] [PRESENT_WX] [TEMP] [DEW] [PRESSURE] [TREND] [RVR] [RECENT_WX] \r\n[NOTAMS] [ARPT_COND] \r\n\r\nCTN BIRD ACT. SINGLE RUNWAY OPS INPR.\r\n\r\n[CLOSING]",
+          "template": "[FACILITY] ARR ATIS [ATIS_CODE]\r\n[OBS_TIME] @EXP ILS @Z APCH 16R\r\n\r\nRWY 16R [WIND] [TL] [VIS] [CLOUDS] [PRESENT_WX] [TEMP] [DEW] [PRESSURE] [TREND] [RVR] [RECENT_WX] \r\n\r\n[NOTAMS] \r\n\r\n[ARPT_COND] \r\n\r\nCTN BIRD ACT. SINGLE RUNWAY OPS INPR.\r\n\r\n[CLOSING]",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
@@ -103032,7 +103032,7 @@
           "id": "bcb83fa9-1969-4711-aa33-5fb765c23b8c",
           "ordinal": 9,
           "name": "17L",
-          "template": "[FACILITY] ARR ATIS [ATIS_CODE]\r\n[OBS_TIME] @EXP ILS @Z APCH 17L\r\n\r\nRWY 17L [WIND] [TL] [VIS] [CLOUDS] [PRESENT_WX] [TEMP] [DEW] [PRESSURE] [TREND] [RVR] [RECENT_WX] \r\n[NOTAMS] [ARPT_COND] \r\n\r\nCTN BIRD ACT. SINGLE RUNWAY OPS INPR.\r\n\r\n[CLOSING]",
+          "template": "[FACILITY] ARR ATIS [ATIS_CODE]\r\n[OBS_TIME] @EXP ILS @Z APCH 17L\r\n\r\nRWY 17L [WIND] [TL] [VIS] [CLOUDS] [PRESENT_WX] [TEMP] [DEW] [PRESSURE] [TREND] [RVR] [RECENT_WX] \r\n\r\n[NOTAMS] \r\n\r\n[ARPT_COND] \r\n\r\nCTN BIRD ACT. SINGLE RUNWAY OPS INPR.\r\n\r\n[CLOSING]",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
@@ -103047,7 +103047,7 @@
           "id": "1d491029-07bc-4581-9d54-187e7b7e6453",
           "ordinal": 10,
           "name": "18",
-          "template": "[FACILITY] ARR ATIS [ATIS_CODE]\r\n[OBS_TIME] @EXP ILS @Z APCH 18\r\n\r\nRWY 18 [WIND] [TL] [VIS] [CLOUDS] [PRESENT_WX] [TEMP] [DEW] [PRESSURE] [TREND] [RVR] [RECENT_WX] \r\n[NOTAMS] [ARPT_COND] \r\n\r\nCTN BIRD ACT. SINGLE RUNWAY OPS INPR.\r\n\r\n[CLOSING]",
+          "template": "[FACILITY] ARR ATIS [ATIS_CODE]\r\n[OBS_TIME] @EXP ILS @Z APCH 18\r\n\r\nRWY 18 [WIND] [TL] [VIS] [CLOUDS] [PRESENT_WX] [TEMP] [DEW] [PRESSURE] [TREND] [RVR] [RECENT_WX]\r\n\r\n[NOTAMS] \r\n\r\n[ARPT_COND] \r\n\r\nCTN BIRD ACT. SINGLE RUNWAY OPS INPR.\r\n\r\n[CLOSING]",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
@@ -103074,7 +103074,7 @@
           "name": "35R - 36",
           "airportConditions": "AFTER VACATING RWY CTC 126.3.",
           "notams": "",
-          "template": "[FACILITY] ARR ATIS [ATIS_CODE]\r\n[OBS_TIME] @EXP ILS @Z APCH 35R @EXP ILS @Z APCH 36\r\n\r\n[WIND] [TL] [VIS] [CLOUDS] [PRESENT_WX] [TEMP] [DEW] [PRESSURE] [TREND] [RVR] [RECENT_WX] \r\n[NOTAMS] [ARPT_COND] \r\n\r\nCTN BIRD ACT. SIMUL INDEPENDENT PARL APCH INPR ON RWY 35R AND 36.\r\n\r\n[CLOSING]",
+          "template": "[FACILITY] ARR ATIS [ATIS_CODE]\r\n[OBS_TIME] @EXP ILS @Z APCH 35R @EXP ILS @Z APCH 36\r\n\r\n[WIND] [TL] [VIS] [CLOUDS] [PRESENT_WX] [TEMP] [DEW] [PRESSURE] [TREND] [RVR] [RECENT_WX] \r\n[NOTAMS] \r\n\r\n[ARPT_COND] \r\n\r\nCTN BIRD ACT. SIMUL INDEPENDENT PARL APCH INPR ON RWY 35R AND 36.\r\n\r\n[CLOSING]",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
@@ -103089,7 +103089,7 @@
           "id": "0421a6cc-7a0d-468e-9635-da4b83934c68",
           "ordinal": 13,
           "name": "34L - 35R",
-          "template": "[FACILITY] ARR ATIS [ATIS_CODE]\r\n[OBS_TIME] @EXP ILS @Z APCH 34L @EXP ILS @Z APCH 35R\r\n\r\n[WIND] [TL] [VIS] [CLOUDS] [PRESENT_WX] [TEMP] [DEW] [PRESSURE] [TREND] [RVR] [RECENT_WX] \r\n[NOTAMS] [ARPT_COND] \r\n\r\nCTN BIRD ACT. SIMUL INDEPENDENT PARL APCH INPR ON RWY 34L AND 35R.\r\n\r\n[CLOSING]",
+          "template": "[FACILITY] ARR ATIS [ATIS_CODE]\r\n[OBS_TIME] @EXP ILS @Z APCH 34L @EXP ILS @Z APCH 35R\r\n\r\n[WIND] [TL] [VIS] [CLOUDS] [PRESENT_WX] [TEMP] [DEW] [PRESSURE] [TREND] [RVR] [RECENT_WX] \r\n[NOTAMS] \r\n\r\n[ARPT_COND] \r\n\r\nCTN BIRD ACT. SIMUL INDEPENDENT PARL APCH INPR ON RWY 34L AND 35R.\r\n\r\n[CLOSING]",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
@@ -103105,7 +103105,7 @@
           "ordinal": 14,
           "name": "34L - 36",
           "notams": "",
-          "template": "[FACILITY] ARR ATIS [ATIS_CODE]\r\n[OBS_TIME] @EXP ILS @Z APCH 34L @EXP ILS @Z APCH 36\r\n\r\n[WIND] [TL] [VIS] [CLOUDS] [PRESENT_WX] [TEMP] [DEW] [PRESSURE] [TREND] [RVR] [RECENT_WX] \r\n[NOTAMS] [ARPT_COND] \r\n\r\nCTN BIRD ACT. SIMUL INDEPENDENT PARL APCH INPR ON RWY 34L AND 36.\r\n\r\n[CLOSING]",
+          "template": "[FACILITY] ARR ATIS [ATIS_CODE]\r\n[OBS_TIME] @EXP ILS @Z APCH 34L @EXP ILS @Z APCH 36\r\n\r\n[WIND] [TL] [VIS] [CLOUDS] [PRESENT_WX] [TEMP] [DEW] [PRESSURE] [TREND] [RVR] [RECENT_WX] \r\n[NOTAMS] \r\n\r\n[ARPT_COND] \r\n\r\nCTN BIRD ACT. SIMUL INDEPENDENT PARL APCH INPR ON RWY 34L AND 36.\r\n\r\n[CLOSING]",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
@@ -103130,7 +103130,7 @@
           "id": "628335a6-bd0e-478b-bc29-b43eb1f56fff",
           "ordinal": 16,
           "name": "34L",
-          "template": "[FACILITY] ARR ATIS [ATIS_CODE]\r\n[OBS_TIME] @EXP ILS @Z APCH 34L\r\n\r\nRWY 34L [WIND] [TL] [VIS] [CLOUDS] [PRESENT_WX] [TEMP] [DEW] [PRESSURE] [TREND] [RVR] [RECENT_WX] \r\n[NOTAMS] [ARPT_COND] \r\n\r\nCTN BIRD ACT. SINGLE RUNWAY OPS INPR.\r\n\r\n[CLOSING]",
+          "template": "[FACILITY] ARR ATIS [ATIS_CODE]\r\n[OBS_TIME] @EXP ILS @Z APCH 34L\r\n\r\nRWY 34L [WIND] [TL] [VIS] [CLOUDS] [PRESENT_WX] [TEMP] [DEW] [PRESSURE] [TREND] [RVR] [RECENT_WX] \r\n\r\n[NOTAMS] \r\n\r\n[ARPT_COND] \r\n\r\nCTN BIRD ACT. SINGLE RUNWAY OPS INPR.\r\n\r\n[CLOSING]",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
@@ -103145,7 +103145,7 @@
           "id": "cecb5698-1667-4e3b-bb9d-6278c58a8b1f",
           "ordinal": 17,
           "name": "35R",
-          "template": "[FACILITY] ARR ATIS [ATIS_CODE]\r\n[OBS_TIME] @EXP ILS @Z APCH 35R\r\n\r\nRWY 35R [WIND] [TL] [VIS] [CLOUDS] [PRESENT_WX] [TEMP] [DEW] [PRESSURE] [TREND] [RVR] [RECENT_WX] \r\n[NOTAMS] [ARPT_COND] \r\n\r\nCTN BIRD ACT. SINGLE RUNWAY OPS INPR.\r\n\r\n[CLOSING]",
+          "template": "[FACILITY] ARR ATIS [ATIS_CODE]\r\n[OBS_TIME] @EXP ILS @Z APCH 35R\r\n\r\nRWY 35R [WIND] [TL] [VIS] [CLOUDS] [PRESENT_WX] [TEMP] [DEW] [PRESSURE] [TREND] [RVR] [RECENT_WX] \r\n\r\n[NOTAMS] \r\n\r\n[ARPT_COND] \r\n\r\nCTN BIRD ACT. SINGLE RUNWAY OPS INPR.\r\n\r\n[CLOSING]",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
@@ -103160,7 +103160,7 @@
           "id": "91785ebb-c28d-445e-9fbf-499b45f13535",
           "ordinal": 18,
           "name": "36",
-          "template": "[FACILITY] ARR ATIS [ATIS_CODE]\r\n[OBS_TIME] @EXP ILS @Z APCH 36\r\n\r\nRWY 36 [WIND] [TL] [VIS] [CLOUDS] [PRESENT_WX] [TEMP] [DEW] [PRESSURE] [TREND] [RVR] [RECENT_WX] \r\n[NOTAMS] [ARPT_COND] \r\n\r\nCTN BIRD ACT. SINGLE RUNWAY OPS INPR.\r\n\r\n[CLOSING]",
+          "template": "[FACILITY] ARR ATIS [ATIS_CODE]\r\n[OBS_TIME] @EXP ILS @Z APCH 36\r\n\r\nRWY 36 [WIND] [TL] [VIS] [CLOUDS] [PRESENT_WX] [TEMP] [DEW] [PRESSURE] [TREND] [RVR] [RECENT_WX] \r\n\r\n[NOTAMS] \r\n\r\n[ARPT_COND] \r\n\r\nCTN BIRD ACT. SINGLE RUNWAY OPS INPR.\r\n\r\n[CLOSING]",
           "externalGenerator": {
             "enabled": false,
             "textUrl": "",
