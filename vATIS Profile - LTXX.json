@@ -1,8 +1,8 @@
 {
   "name": "LTXX",
-  "id": "02f391b1-d58e-4ed7-80e6-95e74317b9ee",
+  "id": "44233671-8351-445d-8c0d-18c79a3b3b04",
   "updateUrl": "https://raw.githubusercontent.com/TRvACC/vATIS-Profile.json/refs/heads/main/vATIS%20Profile%20-%20LTXX.json",
-  "updateSerial": 2026070901,
+  "updateSerial": 2026071001,
   "stations": [
     {
       "id": "8b753578-b3c6-4497-8d4f-bccb1859a507",
@@ -8446,7 +8446,7 @@
         {
           "text": "RADAR DEP FREQ 135.400",
           "ordinal": 8,
-          "enabled": true
+          "enabled": false
         }
       ],
       "notamDefinitions": [
@@ -37361,7 +37361,7 @@
         {
           "text": "AIRBORN FREQUENCY 135.4",
           "ordinal": 6,
-          "enabled": true
+          "enabled": false
         },
         {
           "text": "AIRBORN FREQUENCY 129.425",
@@ -98643,7 +98643,7 @@
         {
           "text": "AIRBORNE FREQ 120.500",
           "ordinal": 3,
-          "enabled": true
+          "enabled": false
         },
         {
           "text": "AIRBORNE FREQ 119.300",
@@ -100917,10 +100917,16 @@
         {
           "text": "AIRBORNE FREQ 135.400",
           "ordinal": 10,
-          "enabled": true
+          "enabled": false
         }
       ],
-      "notamDefinitions": []
+      "notamDefinitions": [
+        {
+          "text": "STOPBARS CONTROLLED DOWNLOAD PLUGIN VIA HTTPS://XPGUARD.NET/",
+          "ordinal": 1,
+          "enabled": true
+        }
+      ]
     },
     {
       "id": "2ec9993c-fc71-4021-9f30-ad28af11dcfc",
@@ -103215,7 +103221,13 @@
           "enabled": false
         }
       ],
-      "notamDefinitions": []
+      "notamDefinitions": [
+        {
+          "text": "STOPBARS CONTROLLED DOWNLOAD PLUGIN VIA HTTPS://XPGUARD.NET/",
+          "ordinal": 1,
+          "enabled": true
+        }
+      ]
     },
     {
       "id": "466737de-6dad-4752-928f-5b21994613b0",
@@ -105264,7 +105276,7 @@
         "low": "N",
         "high": "Z"
       },
-       "atisFormat": {
+      "atisFormat": {
         "observationTime": {
           "standardUpdateTime": [
             20,
@@ -107332,7 +107344,7 @@
           }
         }
       ],
-      "contractions": [ 
+      "contractions": [
         {
           "variableName": "V",
           "text": "V",
@@ -107391,7 +107403,7 @@
       ],
       "airportConditionDefinitions": [],
       "notamDefinitions": [
-	   {
+        {
           "text": "RWY 03L CLSD",
           "ordinal": 1,
           "enabled": false
@@ -107411,7 +107423,7 @@
           "ordinal": 4,
           "enabled": false
         }
-		]
+      ]
     }
   ],
   "version": 4
